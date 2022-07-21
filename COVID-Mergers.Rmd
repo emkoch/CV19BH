@@ -1,0 +1,301 @@
+---
+title: "Merging patient entries in COVID data"
+output: html_notebook
+---
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(ggsci) 
+library(lubridate)
+library(corrplot)
+library(data.table)
+library(rstan)
+library(cowplot)
+library(scales)
+```
+
+```{r}
+processed_data_2 <- read_csv("processed_with_mutations_na_as_no_vaccination_processed_073021.csv")
+```
+First we want to kill off individuals who don't even have a CPR.
+
+```{r}
+cat(sprintf("%i patient entries missing CPR", sum(is.na(processed_data_2$CPR))))
+processed_data_2 <- dplyr::filter(processed_data_2, !is.na(CPR))
+processed_data_2 <- processed_data_2[,-(1:5)]
+```
+We also have genotypes of individuals who weren't sequenced coded as N* and we should set these to NA.
+```{r}
+rbind(56:60, colnames(processed_data_2[,56:60]))
+```
+```{r}
+rbind(1410:1413, colnames(processed_data_2[,1410:1413]))
+```
+So we want to NA everything from 57 to 1211. This is because we are assuming that Justin added genotype information to entries only when a lab number was present.
+```{r}
+processed_data_2[is.na(processed_data_2$`Lab No`), 57:1411] <- NA
+```
+Write a simple function to merge rows and complain when that merging contains contradictions.
+```{r}
+merge.rows <- function(rowlist){
+  result <- processed_data_2[1,]
+  for(ii in 1:ncol(rowlist))
+    result[1,ii] <- NA
+  for(ii in 1:ncol(rowlist)){
+    if((names(rowlist[,ii])=="Patient Id") | (names(rowlist[,ii])=="CPR")){
+      CPR.nums <- unique(as.numeric(unlist(rowlist[,ii])))
+      CPR.nums <- CPR.nums[!is.na(CPR.nums)]
+      if(length(CPR.nums)>1)
+        print(paste0("multiple CPR: ", CPR.nums))
+      result[ii] <- CPR.nums[1]
+    } else{
+      vals <- unlist(rowlist[,ii])
+      nonmiss.vals <- unique(vals[!is.na(vals)])
+      if(length(nonmiss.vals)==0)
+        next
+      if(length(nonmiss.vals)>1){
+        print("multiple vals:")
+        print(c(names(rowlist[,ii]), nonmiss.vals))
+        if(names(rowlist[,ii])=="Age"){
+          result[ii] <- min(nonmiss.vals)
+        } else if((names(rowlist[,ii])=="Vaccination Status") | (names(rowlist[,ii])=="Vaccination Status (Processed)")){
+          if("Yes" %in% nonmiss.vals)
+            result[ii] <- "Yes"
+          else
+            result[ii] <- "No"
+        }
+      }
+      if(grepl("Date", names(rowlist)[ii])){
+        result[ii] <- lubridate::as_date(nonmiss.vals[1])
+      } else{
+         result[ii] <- nonmiss.vals[1]
+      }
+    }
+  }
+  return(result)
+}
+```
+Run this with some test rows to see if it is working properly.
+```{r}
+rowlist <- processed_data_2[c(28, 126, 261),1:10]
+merge.test <- merge.rows(rowlist)
+```
+
+```{r}
+rowlist
+merge.test
+```
+
+```{r}
+matching.sets <- list()
+jj <- 1
+for(ii in 1:nrow(processed_data_2)){
+  CPR <- processed_data_2$CPR[ii]
+  labno <- processed_data_2$`Lab No`[ii]
+  matching.rows <- grepl(CPR, processed_data_2$CPR) | grepl(CPR, processed_data_2$`Lab No`)
+  if(sum(matching.rows)> 1){
+    matching.sets[[jj]] <-  which(matching.rows)
+    jj <- jj + 1
+  }
+}
+```
+
+```{r}
+merged.matches <- list(-1)
+for(matching.set in matching.sets){
+  found.matches <- c()
+  for(ii in 1:length(merged.matches)){
+    if(length(base::intersect(matching.set, merged.matches[[ii]]))>0){
+      found.matches <- c(found.matches, ii)
+    }
+  }
+  if(length(found.matches)==0){
+    merged.matches[[length(merged.matches)+1]] <- matching.set
+  } else{
+    new.set <- matching.set
+    for(jj in found.matches){
+      new.set <- c(new.set, merged.matches[[jj]])
+    }
+    new.set <- unique(new.set)
+    merged.matches <- merged.matches[-found.matches]
+    merged.matches[[length(found.matches)+1]] <- new.set
+  }
+}
+merged.matches[[1]] <- NULL
+```
+
+```{r}
+all.matched <- do.call(c, merged.matches)
+length(all.matched) == length(unique(all.matched))
+```
+
+```{r}
+merged.rows <- list()
+ii <- 1
+for(merged.match in merged.matches){
+  print(c("merging", merged.match))
+  merged.rows[[ii]] <- merge.rows(processed_data_2[merged.match,])
+  ii <- ii + 1
+}
+```
+```{r}
+merge.test <- do.call(rbind, merged.rows)
+```
+
+Now we need to remove the dupcliate rows from the table and add the merged rows in.
+```{r}
+merged_data <- processed_data_2[-all.matched,] 
+for(ii in 1:length(merged.rows)){
+  merged_data <- rbind(merged_data, merged.rows[[ii]])
+}
+```
+Now read in the nextclade data
+```{r}
+nextclade <- fread("nextclade.tsv", sep="\t", fill=T)
+nextclade$seqName <- sapply(nextclade$seqName, function(X){
+  if(grepl("_", X)){
+    return(str_split(X, "_")[[1]][1])
+  } else{
+    return(X)
+  }
+})
+```
+
+
+```{r}
+colnames(merged_data)[1:60]
+```
+We're going to add the nextclade data ourselves just to make sure the lab IDs are matched correctly to records now.
+```{r}
+merged_data$qc.overallStatus <- NA
+merged_data$totalMissing <- NA
+merged_data$totalSubstitutions <- NA
+merged_data$totalPcrPrimerChanges <- NA
+merged_data$qc.overallScore <- NA
+merged_data$qc.missingData.status <- NA
+merged_data$qc.mixedSites.status <- NA
+merged_data$qc.snpClusters.status <- NA
+merged_data$clade <- NA
+
+for(ii in 1:nrow(nextclade)){
+  if(ii == 695) ## Skip 695 because it is a lower-quality duplicate... see below for reasoning
+    next
+  seqname <- as.character(nextclade$seqName[ii])
+  qc.overallStatus <- nextclade$qc.overallStatus[ii]
+  qc.overallScore <- nextclade$qc.overallScore[ii]
+  totalMissing <- nextclade$totalMissing[ii]
+  totalSubstitutions <- nextclade$totalSubstitutions[ii]
+  totalPcrPrimerChanges <- nextclade$totalPcrPrimerChanges[ii]
+  qc.missingData.status <- nextclade$qc.missingData.status[ii]
+  qc.mixedSites.status <- nextclade$qc.mixedSites.status[ii]
+  qc.snpClusters.status <- nextclade$qc.snpClusters.status[ii]
+  clade <- nextclade$clade[ii]
+  matching.rows <- grepl(seqname, merged_data$`Lab No`) | grepl(seqname, merged_data$CPR)
+  if(sum(matching.rows)>1){
+    print(c(ii, seqname, merged_data$CPR[matching.rows]))
+    print(which(matching.rows))
+  }
+  merged_data$qc.overallStatus[matching.rows] <- qc.overallStatus
+  merged_data$qc.missingData.status[matching.rows] <- qc.missingData.status
+  merged_data$qc.mixedSites.status[matching.rows] <- qc.mixedSites.status
+  merged_data$qc.snpClusters.status[matching.rows] <- qc.snpClusters.status
+  merged_data$qc.overallScore[matching.rows] <- qc.overallScore
+  merged_data$totalMissing[matching.rows] <- totalMissing
+  merged_data$totalSubstitutions[matching.rows] <- totalSubstitutions
+  merged_data$totalPcrPrimerChanges[matching.rows] <- totalPcrPrimerChanges
+  merged_data$clade[matching.rows] <- clade
+}
+```
+
+```{r}
+other_comorbidities <- vector(mode="character", length=nrow(seq_data))
+is_yes <- function(value) {
+  if (is.na(value)) {
+    return(FALSE)
+  } else if (value == "Yes") {
+    return(TRUE)
+  } else {
+    return(FALSE)
+  }
+}
+
+for (i in 1:nrow(seq_data)) {
+  if (
+    is_yes(seq_data$`Immunocompromizing.Disease`[i]) |
+    is_yes(seq_data$`Renal.Disease`[i]) |
+    is_yes(seq_data$Obesity[i]) |
+    is_yes(seq_data$`Chronic.Lung.Disease`[i]) |
+    is_yes(seq_data$`Cardiovascular.Disease`[i]) |
+    is_yes(seq_data$`Sickle.Cell.Disease.Or.Trait`[i]) |
+    is_yes(seq_data$Cancer[i])
+  ) {
+    other_comorbidities[i] <- "Yes";
+  } else {
+    other_comorbidities[i] <- "No";
+  }
+}
+
+seq_data["Other Comorbidities"] <- other_comorbidities
+```
+
+```{r}
+seq_data$day <- lubridate::day(seq_data$`Collection.Date`) + 
+    (lubridate::month(seq_data$`Collection.Date`)-1)*30.5 + 
+    (lubridate::year(seq_data$`Collection.Date`)-2020)*365
+seq_data$day <- seq_data$day - min(seq_data$day, na.rm = T)
+seq_data$region.processed <- seq_data$Region
+seq_data$region.processed[is.na(seq_data$Region)] <- "None"
+```
+
+```{r}
+kill.row <- (seq_data$day < 200 | seq_data$day > 400) & seq_data$clade == "20I (Alpha, V1)"
+kill.row[is.na(kill.row)] <- FALSE
+seq_data <- seq_data[!kill.row,]
+```
+
+```{r}
+clade.meds <- group_by(seq_data, clade) %>% summarize(med.day=median(day, na.rm=T))
+rownames(clade.meds) <- clade.meds$clade
+seq_data$day_imputed <- seq_data$day
+for(ii in which(is.na(seq_data$day))){
+  seq_data$day_imputed[ii] <- clade.meds[seq_data$clade[ii],]$med.day
+}
+```
+
+```{r}
+seq_data$age_imputed <- seq_data$Age
+seq_data$age_imputed[is.na(seq_data$Age)] <- median(seq_data$Age, na.rm=T)
+seq_data$Gender.num <- as.numeric(seq_data$Gender=="Female")
+seq_data$Gender.num[is.na(seq_data$Gender)] <- mean(seq_data$Gender.num, na.rm=T) 
+```
+
+
+```{r}
+seq_data$Nationality_processed <- "Other"
+seq_data$Nationality_processed[seq_data$Nationality=="Bahraini"] <- "Bahraini"
+seq_data$Nationality_processed[seq_data$Nationality %in% c("Indian", "Sri Lankan", "Nepalese", "Nepalise", "Bangladeshi")] <- "S_Asia"
+seq_data$Nationality_processed[is.na(seq_data$Nationality)] <- "None"
+
+seq_data_hq$Nationality_processed <- "Other"
+seq_data_hq$Nationality_processed[seq_data_hq$Nationality=="Bahraini"] <- "Bahraini"
+seq_data_hq$Nationality_processed[seq_data_hq$Nationality %in% c("Indian", "Sri Lankan", "Nepalese", "Nepalise", "Bangladeshi")] <- "S_Asia"
+seq_data_hq$Nationality_processed[is.na(seq_data_hq$Nationality)] <- "None"
+```
+
+```{r}
+seq_data$qc.missingData.status <- factor(seq_data$qc.missingData.status, c("bad", "mediocre", "good"))
+```
+
+
+```{r}
+seq_data_hq <- dplyr::filter(seq_data, qc.missingData.status!="bad")
+```
+
+```{r}
+write.table(seq_data, file="seq_data_082721.csv", row.names = F, sep=",")
+write.table(seq_data_hq, file="seq_data_hq_082721.csv", row.names = F, sep=",")
+```
+
+
+
+

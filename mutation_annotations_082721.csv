@@ -1,0 +1,2076 @@
+mutation,gene,count,synonymous,wt,alt,aa index
+C241T,,918,,,,
+T490C,nsp1,5,True,D,D,74
+A1423G,nsp2,5,True,E,E,205
+C1812T,nsp2,7,False,A,V,335
+A2276G,nsp2,1,False,I,V,490
+C3037T,nsp3,1087,True,F,F,105
+C4002T,nsp3,24,False,T,I,427
+A6613G,nsp3,8,True,V,V,1297
+C6941T,nsp3,6,True,L,L,1407
+A9848G,nsp4,4,False,S,G,431
+G10097A,3CL-PRO,25,False,G,S,14
+C10507T,3CL-PRO,11,True,N,N,150
+C13536T,Pol,27,True,Y,Y,24
+C14408T,Pol,1019,False,P,L,315
+C22624T,S glycoprotein,8,True,N,N,341
+A23403G,S glycoprotein,1064,False,D,G,601
+C23604G,S glycoprotein,9,False,P,R,668
+C23731T,S glycoprotein,23,True,T,T,710
+G24193T,S glycoprotein,6,True,L,L,864
+C25904T,ORF3a,41,False,S,L,170
+G26209T,ORF3a,1,False,V,L,272
+T27384C,ORF6,14,True,D,D,60
+G28079T,ORF8,8,True,V,V,46
+C28603T,N,26,True,F,F,109
+G28851T,N,4,False,S,I,192
+G28881A,N,664,False,R,K,202
+G28882A,N,665,True,R,R,202
+G28883C,N,664,False,G,R,203
+G28908T,N,10,False,G,V,211
+C313T,nsp1,231,True,L,L,15
+C3045T,nsp3,59,False,P,L,108
+C5700A,nsp3,245,False,A,D,993
+C5869T,nsp3,7,True,Y,Y,1049
+C18252T,ExoN,47,True,N,N,70
+A27965T,ORF8,49,True,S,S,8
+C629T,nsp1,1,False,L,F,121
+T1947C,nsp2,8,False,V,A,380
+C3944A,nsp3,1,False,Q,K,408
+G5008T,nsp3,2,True,T,T,762
+C8917T,nsp4,35,True,F,F,120
+G11083T,nsp6,96,False,L,F,36
+C18877T,ExoN,105,True,L,L,279
+G19542T,ExoN,2,False,M,I,500
+C22444T,S glycoprotein,60,True,D,D,281
+G25563T,ORF3a,236,False,Q,H,56
+G25909T,ORF3a,7,False,D,Y,172
+C26735T,M,107,True,Y,Y,70
+G28280T,N,35,False,D,Y,2
+C28854T,N,50,False,S,L,193
+C230T,,2,,,,
+C913T,nsp2,415,True,S,S,35
+C2453T,nsp2,249,False,L,F,549
+C3267T,nsp3,441,False,T,I,182
+C5388A,nsp3,439,False,A,D,889
+C5986T,nsp3,428,True,F,F,1088
+T6954C,nsp3,418,False,I,T,1411
+C14676T,Pol,432,True,P,P,404
+C15279T,Pol,430,True,H,H,605
+T16176C,Pol,467,True,T,T,904
+A23063T,S glycoprotein,467,False,N,Y,488
+C23271A,S glycoprotein,445,False,A,D,557
+C23604A,S glycoprotein,436,False,P,H,668
+C23709T,S glycoprotein,411,False,T,I,703
+T24506G,S glycoprotein,410,False,S,A,969
+G24914C,S glycoprotein,442,False,D,H,1105
+C27972T,ORF8,463,False,Q,*,11
+G28048T,ORF8,390,False,R,I,36
+A28111G,ORF8,482,False,Y,C,57
+G28280C,N,381,False,D,H,2
+A28281T,N,382,False,D,V,2
+T28282A,N,382,False,D,E,2
+C28977T,N,352,False,S,F,234
+A3869G,nsp3,32,False,K,E,383
+A6659G,nsp3,31,False,S,G,1313
+C12132T,nsp8,32,False,A,V,13
+T13111C,nsp10,10,True,D,D,28
+G15372T,Pol,12,True,T,T,636
+C16915T,Hel,34,True,L,L,226
+C19263T,ExoN,2,True,N,N,407
+G23868T,S glycoprotein,2,False,G,V,756
+T24202C,S glycoprotein,32,True,G,G,867
+C28312T,N,14,True,P,P,12
+G28899T,N,41,False,R,I,208
+A29005G,N,8,True,Q,Q,243
+C29215T,N,29,True,F,F,313
+G29779T,,11,,,,
+C683T,nsp1,52,True,L,L,139
+A1163T,nsp2,56,False,I,F,119
+A3538G,nsp3,51,False,I,M,272
+G3539T,nsp3,51,False,A,S,273
+C4540T,nsp3,53,True,Y,Y,606
+A7451G,nsp3,21,False,S,G,1577
+A8254G,nsp3,6,False,I,M,1844
+T9022C,nsp4,52,True,C,C,155
+C9430T,nsp4,54,True,I,I,291
+C10252T,3CL-PRO,53,True,F,F,65
+C11095T,nsp6,1,True,A,A,40
+C14322T,Pol,1,True,Y,Y,286
+T21015A,nsp16,54,False,H,Q,118
+G25912T,ORF3a,50,False,G,C,173
+T27776A,,50,,,,
+C27920T,,50,,,,
+G28141T,ORF8,52,False,C,F,67
+G28727T,N,4,False,A,S,151
+C884T,nsp2,31,False,R,C,26
+G1397A,nsp2,42,False,V,I,197
+G8653T,nsp4,30,False,M,I,32
+C12890T,nsp9,12,True,L,L,68
+C13721T,Pol,12,False,P,L,86
+A19073G,ExoN,30,False,D,G,344
+G27915T,,28,,,,
+T28688C,N,42,True,L,L,138
+C28868T,N,29,False,P,S,198
+C29077T,N,30,True,Y,Y,267
+G29742T,,39,,,,
+C9733T,nsp4,61,True,F,F,392
+A17615G,Hel,86,False,K,R,459
+T26418C,E,1,True,V,V,57
+G15016T,Pol,1,False,A,S,518
+G21793T,S glycoprotein,1,False,K,N,64
+A5G,,4,,,,
+C2416T,nsp2,124,True,Y,Y,536
+C2937T,nsp3,119,False,T,I,72
+C7765T,nsp3,14,True,S,S,1681
+G8371T,nsp3,123,False,Q,H,1883
+C11074T,nsp6,5,True,F,F,33
+G14118T,Pol,2,True,T,T,218
+C17747T,Hel,9,False,P,L,503
+C2700T,nsp2,1,False,T,I,631
+C2841T,nsp3,5,False,A,V,40
+A6397T,nsp3,1,True,L,L,1225
+G6741A,nsp3,1,False,R,Q,1340
+G7798T,nsp3,2,False,K,N,1692
+G11417T,nsp6,4,False,V,F,148
+C12534T,nsp8,10,False,T,I,147
+G14371T,Pol,1,False,A,S,303
+C17766T,Hel,6,True,V,V,509
+T18987C,ExoN,1,True,V,V,315
+G22992A,S glycoprotein,2,False,S,N,464
+G23593T,S glycoprotein,16,False,Q,H,664
+C25207T,S glycoprotein,3,True,Y,Y,1202
+C26022T,ORF3a,1,True,D,D,209
+C1572T,nsp2,9,False,T,I,255
+G3302A,nsp3,7,False,E,K,194
+C9693T,nsp4,8,False,A,V,379
+C11758T,nsp6,8,True,P,P,261
+C12789T,nsp9,6,False,T,I,34
+C14267T,Pol,1,False,T,M,268
+C18526T,ExoN,7,False,R,C,162
+G20569T,nsp15,29,False,V,F,316
+A22790G,S glycoprotein,7,False,I,V,397
+T22917G,S glycoprotein,13,False,L,R,439
+T23773C,S glycoprotein,1,True,D,D,724
+C25517T,ORF3a,7,False,P,L,41
+G25996T,ORF3a,7,False,V,L,201
+C26873T,M,14,True,N,N,116
+T27971C,ORF8,1,True,T,T,10
+C28807T,N,6,True,G,G,177
+G29422T,N,10,True,P,P,382
+G21987T,S glycoprotein,39,False,G,V,129
+C25350T,S glycoprotein,1,False,P,L,1250
+C28011T,ORF8,10,False,H,Y,24
+C274T,nsp1,4,True,S,S,2
+A2497G,nsp2,4,True,G,G,563
+C2644T,nsp2,4,True,I,I,612
+G21305A,nsp16,1,False,R,H,215
+G23608A,S glycoprotein,4,True,R,R,669
+G25049T,S glycoprotein,4,False,D,Y,1150
+C28512G,N,4,False,P,R,79
+G28975T,N,4,False,M,I,233
+G29543T,,8,,,,
+C29732T,,5,,,,
+G376T,nsp1,79,False,E,D,36
+C2094T,nsp2,4,False,S,L,429
+T3295C,nsp3,80,True,P,P,191
+C29370T,N,10,False,T,I,365
+A1321G,nsp2,1,True,E,E,171
+G1738T,nsp2,5,True,V,V,310
+G5612A,nsp3,4,False,V,I,964
+C6011T,nsp3,2,False,P,S,1097
+C6636T,nsp3,5,False,T,I,1305
+G9389A,nsp4,31,False,D,N,278
+C16260T,Hel,3,True,C,C,7
+G16647C,Hel,4,True,T,T,136
+C21110T,nsp16,2,False,T,I,150
+C23188T,S glycoprotein,5,True,N,N,529
+G24095T,S glycoprotein,5,False,A,S,832
+G24794A,S glycoprotein,5,False,A,T,1065
+C25703T,ORF3a,5,False,P,L,103
+C24109T,S glycoprotein,37,True,L,L,836
+C25721T,ORF3a,1,False,A,V,109
+C27697T,ORF7a,1,False,L,F,86
+A7201G,nsp3,1,True,S,S,1493
+C7851T,nsp3,10,False,A,V,1710
+C8956T,nsp4,1,True,Y,Y,133
+T15096C,Pol,63,True,N,N,544
+C25046T,S glycoprotein,2,False,P,S,1149
+G25681T,ORF3a,1,False,V,F,96
+C26833T,M,4,False,A,V,103
+A28095T,ORF8,59,False,K,*,52
+C9165T,nsp4,2,False,T,I,203
+G10465T,3CL-PRO,1,False,K,N,136
+C13476T,Pol,1,True,C,C,4
+C13506T,Pol,1,True,C,C,14
+G13538T,Pol,1,False,R,M,25
+G13570T,Pol,1,False,G,C,36
+A20465G,nsp15,1,False,D,G,281
+G21082T,nsp16,1,False,E,*,141
+G29240A,N,7,False,E,K,322
+C664T,nsp1,81,True,G,G,132
+C4893T,nsp3,8,False,T,I,724
+T14454G,Pol,29,True,V,V,330
+C17012T,Hel,34,False,S,L,258
+G20102T,nsp15,29,False,S,I,160
+C22987T,S glycoprotein,79,True,A,A,462
+C26464T,E,22,True,L,L,73
+G26690T,M,79,True,L,L,55
+G21724T,S glycoprotein,3,False,L,F,41
+T28726C,N,1,True,P,P,150
+C7173T,nsp3,10,False,S,F,1484
+G21974T,S glycoprotein,25,False,D,Y,125
+G25720T,ORF3a,11,False,A,S,109
+C9051T,nsp4,4,False,P,L,165
+G3871T,nsp3,1,False,K,N,383
+C12123T,nsp8,1,False,S,L,10
+G13765T,Pol,2,False,D,Y,101
+C24418T,S glycoprotein,2,True,V,V,939
+C2227T,nsp2,1,True,T,T,473
+C16468T,Hel,4,False,P,S,77
+C16726T,Hel,19,False,H,Y,163
+A24178G,S glycoprotein,3,True,Q,Q,859
+C21707T,S glycoprotein,10,False,H,Y,36
+C1929T,nsp2,1,False,A,V,374
+C2902T,nsp3,1,True,V,V,60
+G4148T,nsp3,1,False,V,F,476
+C7108T,nsp3,1,True,Y,Y,1462
+C8386T,nsp3,1,True,H,H,1888
+T9167C,nsp4,1,False,Y,H,204
+C16551T,Hel,1,True,D,D,104
+A19752C,nsp15,1,False,E,D,43
+C21034T,nsp16,5,False,L,F,125
+T22882G,S glycoprotein,4,False,N,K,427
+G26173T,ORF3a,3,False,E,*,260
+C27879A,,1,,,,
+C27881T,,1,,,,
+G28183T,ORF8,4,False,S,I,81
+T28277C,N,3,False,S,P,1
+A28319G,N,1,False,T,A,15
+A29768G,,1,,,,
+C6286T,nsp3,2,True,T,T,1188
+C7728T,nsp3,1,False,S,F,1669
+G8137A,nsp3,1,True,V,V,1805
+C11173T,nsp6,2,True,L,L,66
+A16302G,Hel,1,True,R,R,21
+G22331A,S glycoprotein,1,False,G,S,244
+T25969C,ORF3a,1,False,W,R,192
+C27434A,,1,,,,
+T6023C,nsp3,12,False,Y,H,1101
+C10335T,3CL-PRO,1,False,A,V,93
+G17860A,Hel,1,False,D,N,541
+G219T,,33,,,,
+T658C,nsp1,29,True,A,A,130
+A1741G,nsp2,3,True,K,K,311
+C4084T,nsp3,30,True,D,D,454
+T14619C,Pol,22,True,T,T,385
+C21108T,nsp16,26,True,F,F,149
+A481G,nsp1,11,True,K,K,71
+G521T,nsp1,12,False,V,F,85
+C2197T,nsp2,16,True,D,D,463
+G5194T,nsp3,13,True,L,L,824
+C5365T,nsp3,14,True,Y,Y,881
+C8782T,nsp4,21,True,S,S,75
+C9988T,nsp4,14,True,F,F,477
+G10850A,3CL-PRO,16,False,A,T,265
+C12469T,nsp8,16,True,A,A,125
+C16391T,Hel,16,False,A,V,51
+G17014T,Hel,15,False,D,Y,259
+G19101T,ExoN,2,False,Q,H,353
+G19827T,nsp15,13,True,V,V,68
+G22468T,S glycoprotein,21,True,T,T,289
+C22858T,S glycoprotein,6,True,C,C,419
+A23064C,S glycoprotein,19,False,N,T,488
+C23525T,S glycoprotein,14,False,H,Y,642
+C27294T,ORF6,20,True,Y,Y,30
+A27489G,ORF7a,16,True,K,K,16
+C27603A,ORF7a,5,True,G,G,54
+T28144C,ORF8,18,False,L,S,68
+A28272T,,15,,,,
+C28377T,N,15,False,A,V,34
+C28651T,N,12,True,N,N,125
+G28878A,N,14,False,S,N,201
+G29511T,N,13,False,S,I,412
+G29742A,,18,,,,
+A2134G,nsp2,1,True,K,K,442
+C10188T,3CL-PRO,41,False,T,I,44
+G10870T,3CL-PRO,45,True,L,L,271
+T13783G,Pol,41,False,S,A,107
+C27684T,ORF7a,37,True,Y,Y,81
+G27746T,ORF7a,38,False,R,I,102
+C12923T,nsp9,1,False,P,S,79
+T1499G,nsp2,1,False,S,A,231
+A1573C,nsp2,2,True,T,T,255
+C2005T,nsp2,3,True,L,L,399
+C2788T,nsp3,2,True,I,I,22
+G4076A,nsp3,3,False,V,I,452
+C8655T,nsp4,5,False,S,F,33
+C13019T,nsp9,3,True,L,L,111
+C21844T,S glycoprotein,10,True,S,S,81
+C22663T,S glycoprotein,4,True,V,V,354
+C23435T,S glycoprotein,1,False,H,Y,612
+C25096T,S glycoprotein,14,True,N,N,1165
+T25959C,ORF3a,3,True,Y,Y,188
+G26034A,ORF3a,3,True,L,L,213
+G24515A,S glycoprotein,1,False,D,N,972
+A29731G,,1,,,,
+T451G,nsp1,1,True,P,P,61
+C2842T,nsp3,3,True,A,A,40
+T3466C,nsp3,1,True,H,H,248
+G4913T,nsp3,1,False,V,F,731
+A13962G,Pol,1,True,V,V,166
+C19718T,nsp15,2,False,T,I,32
+C22916A,S glycoprotein,1,False,L,M,439
+C23260T,S glycoprotein,1,True,G,G,553
+C24370T,S glycoprotein,2,True,D,D,923
+C25528T,ORF3a,1,False,L,F,45
+C25714T,ORF3a,1,False,L,F,107
+C28905T,N,1,False,A,V,210
+G22927T,S glycoprotein,12,False,L,F,442
+C27059T,M,1,True,Y,Y,178
+G27987T,ORF8,18,False,V,L,16
+C14599T,Pol,7,True,L,L,379
+T606C,nsp1,1,False,I,T,113
+C1385T,nsp2,19,False,H,Y,193
+T1847C,nsp2,3,False,S,P,347
+G17325A,Hel,3,True,L,L,362
+A21700T,S glycoprotein,21,True,S,S,33
+G23867A,S glycoprotein,21,False,G,R,756
+G26718T,M,5,False,V,L,65
+T27713C,ORF7a,1,False,I,T,91
+G10762T,3CL-PRO,6,False,K,N,235
+T15756C,Pol,9,True,S,S,764
+C25710T,ORF3a,6,True,L,L,105
+A949G,nsp2,1,True,V,V,47
+C1101T,nsp2,17,False,S,F,98
+G4868T,nsp3,1,False,V,L,716
+C6031T,nsp3,4,True,N,N,1103
+T7226A,nsp3,12,False,F,I,1502
+G20348T,nsp15,17,False,S,I,242
+C25427T,ORF3a,18,False,T,I,11
+T772C,nsp1,21,True,V,V,168
+C1302T,nsp2,2,False,T,I,165
+C1594A,nsp2,16,True,S,S,262
+C4897T,nsp3,3,True,F,F,725
+G5425C,nsp3,22,False,K,N,901
+A8512G,nsp3,45,True,Q,Q,1930
+T9877C,nsp4,30,True,Y,Y,440
+G11222T,nsp6,33,False,V,F,83
+T12015G,nsp7,6,False,V,G,57
+A12040G,nsp7,22,True,V,V,65
+C12616T,nsp8,28,True,D,D,174
+C15738T,Pol,30,True,F,F,758
+A21868T,S glycoprotein,30,False,R,S,89
+C22227T,S glycoprotein,30,False,A,V,209
+C24707A,S glycoprotein,5,False,L,I,1036
+C25463T,ORF3a,30,False,T,I,23
+G27561T,ORF7a,29,True,L,L,40
+C28253T,ORF8,46,True,F,F,104
+C29095T,N,24,True,F,F,273
+C6555T,nsp3,7,False,A,V,1278
+C6730T,nsp3,1,True,N,N,1336
+A5608G,nsp3,11,True,K,K,962
+C15251T,Pol,3,False,T,I,596
+T1334A,nsp2,6,False,C,S,176
+T8611C,nsp4,5,True,F,F,18
+A10951G,3CL-PRO,6,True,Q,Q,298
+G17197T,Hel,6,False,A,S,320
+G26065C,ORF3a,19,False,V,L,224
+A27712T,ORF7a,2,False,I,L,91
+A23541T,S glycoprotein,1,False,Y,F,647
+C2065T,nsp2,7,True,Y,Y,419
+C3264T,nsp3,7,False,T,I,181
+A11782G,nsp6,11,True,K,K,269
+G25033A,S glycoprotein,7,True,K,K,1144
+C25626T,ORF3a,8,True,H,H,77
+A29806G,,7,,,,
+C18171T,ExoN,23,True,G,G,43
+G20476A,nsp15,16,False,G,S,285
+C16952T,Hel,1,False,T,I,238
+T17796C,Hel,6,True,A,A,519
+T3352C,nsp3,5,True,S,S,210
+C1722T,nsp2,22,False,A,V,305
+C20762T,nsp16,6,False,T,I,34
+T28251G,ORF8,5,False,F,V,104
+A28254C,ORF8,7,False,I,L,105
+T3873C,nsp3,5,False,I,T,384
+G4294A,nsp3,5,True,K,K,524
+G22030T,S glycoprotein,8,False,E,D,143
+G23012A,S glycoprotein,22,False,E,K,471
+C25916T,ORF3a,8,False,T,I,174
+G27382C,ORF6,5,False,D,H,60
+A27383T,ORF6,5,False,D,V,60
+A5913T,nsp3,5,False,K,I,1064
+A2031G,nsp2,5,False,D,G,408
+C21575T,,12,,,,
+G6300T,nsp3,1,False,C,F,1193
+T11465G,nsp6,4,False,W,G,164
+T18096G,ExoN,1,False,H,Q,18
+C27928T,,1,,,,
+C5822T,nsp3,2,False,L,F,1034
+C15141T,Pol,1,True,T,T,559
+G25770T,ORF3a,1,False,R,S,125
+C2189T,nsp2,4,False,L,F,461
+A7196G,nsp3,3,False,I,V,1492
+G5515T,nsp3,1,True,V,V,931
+C7113T,nsp3,3,False,T,I,1464
+T14637C,Pol,3,True,A,A,391
+C15981T,Pol,4,True,I,I,839
+G16636T,Hel,4,False,A,S,133
+C1884T,nsp2,2,False,A,V,359
+C6701T,nsp3,1,False,L,F,1327
+G15444T,Pol,1,False,M,I,660
+G19656T,nsp15,1,False,K,N,11
+G23587C,S glycoprotein,2,False,Q,H,662
+A26771G,M,1,True,A,A,82
+G29781T,,1,,,,
+T29867A,,1,,,,
+C3177T,nsp3,3,False,P,L,152
+G4559A,nsp3,3,False,A,T,613
+C11668T,nsp6,2,True,N,N,231
+C13681A,Pol,2,False,Q,K,73
+C14697T,Pol,2,True,F,F,411
+A21194G,nsp16,2,False,D,G,178
+A26183T,ORF3a,2,False,Y,F,263
+G11521T,nsp6,18,False,M,I,182
+C12970T,nsp9,19,True,N,N,94
+C26882T,M,19,True,L,L,119
+C7564A,nsp3,4,True,S,S,1614
+C8139T,nsp3,5,False,S,F,1806
+C11308A,nsp6,3,False,D,E,111
+C17339T,Hel,4,False,A,V,367
+T23341C,S glycoprotein,4,True,G,G,580
+T23488C,S glycoprotein,5,True,V,V,629
+G25088T,S glycoprotein,4,False,V,F,1163
+C1498T,nsp2,4,True,F,F,230
+C1593T,nsp2,6,False,S,F,262
+G2659A,nsp2,5,True,K,K,617
+C6285T,nsp3,8,False,T,I,1188
+T8593C,nsp4,5,True,V,V,12
+C9565T,nsp4,6,True,F,F,336
+C14407T,Pol,5,False,P,S,315
+T16138C,Pol,4,True,L,L,892
+A20724G,nsp16,4,True,L,L,21
+A21717G,S glycoprotein,3,False,Q,R,39
+C21762T,S glycoprotein,4,False,A,V,54
+G23593C,S glycoprotein,4,False,Q,H,664
+T24224C,S glycoprotein,3,False,F,L,875
+C24748T,S glycoprotein,3,True,F,F,1049
+C25667T,ORF3a,5,False,S,L,91
+C26305T,E,7,False,L,F,20
+T26767C,M,4,False,I,T,81
+C28308G,N,4,False,A,G,11
+A28699G,N,5,True,P,P,141
+C7735T,nsp3,5,True,I,I,1671
+G9416A,nsp4,6,False,G,S,287
+T19701C,nsp15,3,True,I,I,26
+A21405T,nsp16,3,False,K,N,248
+A6328G,nsp3,1,True,T,T,1202
+C17410T,Hel,2,False,R,C,391
+G17632T,Hel,1,False,D,Y,465
+C25728T,ORF3a,1,True,V,V,111
+G3242A,nsp3,9,False,G,S,174
+C2156T,nsp2,18,False,L,F,450
+C8713T,nsp4,17,True,V,V,52
+G25644T,ORF3a,1,True,L,L,83
+A10195C,3CL-PRO,2,False,E,D,46
+C12369A,nsp8,5,False,T,N,92
+A12745G,nsp9,2,True,Q,Q,19
+C18744T,ExoN,3,True,Y,Y,234
+C19955T,nsp15,2,False,T,I,111
+C24789T,S glycoprotein,2,False,T,I,1063
+G29449T,N,4,True,V,V,391
+A10957G,3CL-PRO,2,True,S,S,300
+C27741T,ORF7a,5,True,L,L,100
+C28957T,N,2,True,N,N,227
+C29420T,N,5,False,P,S,382
+T202C,,1,,,,
+G529T,nsp1,4,True,L,L,87
+C28531T,N,1,True,Y,Y,85
+C28915T,N,1,True,G,G,213
+G22801T,S glycoprotein,3,True,G,G,400
+C24382T,S glycoprotein,2,True,S,S,927
+A25800G,ORF3a,3,True,K,K,135
+C6541T,nsp3,4,True,H,H,1273
+C6723T,nsp3,2,False,T,I,1334
+A27262G,ORF6,2,False,T,A,20
+C2062T,nsp2,1,True,A,A,418
+G17443T,Hel,3,False,A,S,402
+T20512G,nsp15,4,False,L,V,297
+G25785T,ORF3a,9,False,W,C,130
+G29764A,,2,,,,
+C823T,nsp2,11,True,V,V,5
+G23628T,S glycoprotein,9,False,S,I,676
+C24130T,S glycoprotein,4,True,N,N,843
+G25305T,S glycoprotein,1,False,C,F,1235
+A4480C,nsp3,1,False,K,N,586
+T26491C,,1,,,,
+A26492T,,1,,,,
+T26497C,,1,,,,
+C6896T,nsp3,17,True,L,L,1392
+A226T,,3,,,,
+C27527T,ORF7a,1,False,P,L,29
+C11620T,nsp6,2,True,F,F,215
+G28895C,N,1,False,A,P,207
+G29688T,,1,,,,
+C5506T,nsp3,2,True,V,V,928
+A11830G,nsp6,2,True,V,V,285
+C26936T,M,1,True,L,L,137
+G11383A,nsp6,6,True,R,R,136
+C23896T,S glycoprotein,2,True,T,T,765
+G27240T,ORF6,6,False,E,D,12
+G5200A,nsp3,1,True,R,R,826
+A6591G,nsp3,1,False,K,R,1290
+C11866T,nsp7,3,True,C,C,7
+C2773T,nsp3,7,True,Y,Y,17
+C2973T,nsp3,5,False,A,V,84
+T3391G,nsp3,5,False,N,K,223
+C12473T,nsp8,1,True,L,L,127
+C14097T,Pol,5,True,F,F,211
+G15617A,Pol,2,False,R,K,718
+C17133T,Hel,4,True,Y,Y,298
+C18086T,ExoN,11,False,T,I,15
+C19560T,ExoN,2,True,S,S,506
+C20235T,nsp15,3,True,P,P,204
+C21811T,S glycoprotein,9,True,V,V,70
+T23877A,S glycoprotein,2,False,V,D,759
+T23878C,S glycoprotein,2,True,V,V,759
+C26029A,ORF3a,5,False,Q,K,212
+G5123A,nsp3,1,False,V,I,801
+C7764T,nsp3,2,False,S,F,1681
+C27131T,M,2,True,N,N,202
+C27425T,,2,,,,
+C29353T,N,1,True,Y,Y,359
+A3523G,nsp3,2,True,E,E,267
+C15763T,Pol,1,True,L,L,767
+G174T,,4,,,,
+C1059T,nsp2,11,False,T,I,84
+A2692T,nsp2,4,True,T,T,628
+C5100T,nsp3,3,False,S,L,793
+G5230T,nsp3,5,False,K,N,836
+C9611T,nsp4,1,False,L,F,352
+A10323G,3CL-PRO,9,False,K,R,89
+A21801C,S glycoprotein,4,False,D,A,67
+A22206G,S glycoprotein,4,False,D,G,202
+G22813T,S glycoprotein,4,False,K,N,404
+C23664T,S glycoprotein,4,False,A,V,688
+C26456T,E,5,False,P,L,70
+G27870T,,4,,,,
+C28887T,N,11,False,T,I,204
+C29358T,N,2,False,T,I,361
+C2910T,nsp3,5,False,T,I,63
+C5239T,nsp3,1,True,Y,Y,839
+C7819T,nsp3,6,True,L,L,1699
+T27592C,ORF7a,1,False,C,R,51
+G21123T,nsp16,3,True,G,G,154
+A4141G,nsp3,6,True,Q,Q,473
+C11962T,nsp7,6,True,L,L,39
+T22897C,S glycoprotein,7,True,V,V,432
+C22802A,S glycoprotein,3,False,Q,K,401
+C23117T,S glycoprotein,5,False,H,Y,506
+G6306T,nsp3,1,False,W,L,1195
+T17997C,Hel,1,True,F,F,586
+C11235T,nsp6,1,False,A,V,87
+C24106T,S glycoprotein,4,True,D,D,835
+C28849T,N,6,True,N,N,191
+G29734C,,8,,,,
+A4926G,nsp3,4,False,D,G,735
+G9203A,nsp4,4,False,D,N,216
+T9867C,nsp4,3,False,L,P,437
+C12049T,nsp7,4,True,N,N,68
+C12053T,nsp7,4,False,L,F,70
+C17074T,Hel,3,False,L,F,279
+T24187A,S glycoprotein,5,True,S,S,862
+G24836A,S glycoprotein,4,False,E,K,1079
+C24863T,S glycoprotein,6,False,H,Y,1088
+A27897C,,4,,,,
+C29724T,,4,,,,
+T1927C,nsp2,4,True,T,T,373
+G12163A,nsp8,3,True,Q,Q,23
+C20825T,nsp16,2,False,T,I,55
+T26488C,,4,,,,
+A24014G,S glycoprotein,1,False,I,V,805
+C27945T,ORF8,4,False,Q,*,2
+C3117T,nsp3,1,False,T,I,132
+A3183G,nsp3,1,False,E,G,154
+C3768T,nsp3,3,False,T,I,349
+C5184T,nsp3,1,False,P,L,821
+C22879A,S glycoprotein,6,False,N,K,426
+C26192T,ORF3a,1,False,P,L,266
+C27297T,ORF6,1,True,I,I,31
+C28801T,N,1,True,S,S,175
+C29007A,N,1,False,T,N,244
+A29534G,,1,,,,
+C2325T,nsp2,3,False,A,V,506
+A3332G,nsp3,2,False,I,V,204
+C6781T,nsp3,4,True,F,F,1353
+G7756T,nsp3,5,False,K,N,1678
+G28378C,N,7,True,A,A,34
+T11731G,nsp6,1,False,Y,*,252
+C17327T,Hel,7,False,P,L,363
+A25359G,S glycoprotein,1,False,K,R,1253
+G28378A,N,3,True,A,A,34
+C180T,,1,,,,
+T8603C,nsp4,6,False,F,L,16
+C20132T,nsp15,2,False,A,V,170
+G25437T,ORF3a,6,False,L,F,14
+T26163C,ORF3a,1,True,N,N,256
+C3165T,nsp3,1,False,A,V,148
+C1926T,nsp2,7,False,T,I,373
+A2192G,nsp2,7,False,R,G,462
+A3889G,nsp3,2,True,K,K,389
+C5544T,nsp3,7,False,T,I,941
+C18395T,ExoN,7,False,A,V,118
+G25455T,ORF3a,3,False,K,N,20
+T29753C,,6,,,,
+C1968T,nsp2,1,False,T,I,387
+C3457T,nsp3,1,True,Y,Y,245
+G4300T,nsp3,2,True,V,V,526
+C4573T,nsp3,2,True,N,N,617
+C10747T,3CL-PRO,2,True,N,N,230
+G11230T,nsp6,3,False,M,I,85
+G11266T,nsp6,2,False,L,F,97
+C16575T,Hel,2,True,D,D,112
+C21411T,nsp16,1,True,P,P,250
+C22000T,S glycoprotein,3,True,H,H,133
+G22661T,S glycoprotein,2,False,V,F,354
+G23401T,S glycoprotein,2,False,Q,H,600
+T24097C,S glycoprotein,2,True,A,A,832
+G28167A,ORF8,2,False,E,K,76
+A22486G,S glycoprotein,1,True,V,V,295
+C12357T,nsp8,4,False,T,I,88
+G27014T,M,1,True,L,L,163
+C12880T,nsp9,1,True,I,I,64
+G19730T,nsp15,1,False,G,V,36
+G23126T,S glycoprotein,1,False,A,S,509
+C19164T,ExoN,11,True,D,D,374
+C6539T,nsp3,1,False,H,Y,1273
+G21867T,S glycoprotein,2,False,R,I,89
+C21660T,S glycoprotein,1,False,T,I,20
+A16474G,Hel,1,False,S,G,79
+G61A,,1,,,,
+C100T,,1,,,,
+C2061T,nsp2,1,False,A,V,418
+C4321T,nsp3,1,True,A,A,533
+A12162G,nsp8,3,False,Q,R,23
+C26447T,E,1,False,S,F,67
+G12988T,nsp9,2,False,M,I,100
+C27874T,,6,,,,
+G28326T,N,2,False,G,V,17
+C8982T,nsp4,15,False,T,I,142
+C19T,,7,,,,
+C26681T,M,4,True,F,F,52
+A1573T,nsp2,3,True,T,T,255
+C2119A,nsp2,2,True,G,G,437
+T17009G,Hel,2,False,I,S,257
+G17887T,Hel,2,False,E,*,550
+G18596T,ExoN,5,False,W,L,185
+G1550A,nsp2,14,False,A,T,248
+G2494A,nsp2,13,True,E,E,562
+A17844G,Hel,5,True,S,S,535
+G19684T,nsp15,11,False,V,L,21
+G20247T,nsp15,18,False,M,I,208
+C26645T,M,19,True,N,N,40
+C10036T,nsp4,1,True,I,I,493
+G21824C,S glycoprotein,1,False,D,H,75
+G22225T,S glycoprotein,5,True,S,S,208
+C21304A,nsp16,4,False,R,S,215
+C3966T,nsp3,1,False,A,V,415
+A16431G,Hel,1,True,L,L,64
+A29287G,N,3,True,K,K,337
+C26542T,M,1,False,T,I,6
+T28743C,N,1,False,I,T,156
+C27532T,ORF7a,3,False,H,Y,31
+C3787T,nsp3,2,True,Y,Y,355
+G27396T,,1,,,,
+G28195T,ORF8,1,False,R,L,85
+T1309A,nsp2,1,False,N,K,167
+C9891T,nsp4,3,False,A,V,445
+C10183T,3CL-PRO,2,True,I,I,42
+C10341T,3CL-PRO,3,False,P,L,95
+T10999C,nsp6,1,True,G,G,8
+C11450A,nsp6,3,False,Q,K,159
+C11750T,nsp6,3,False,L,F,259
+C12138T,nsp8,3,False,A,V,15
+A14130G,Pol,1,True,G,G,222
+C14790T,Pol,1,True,I,I,442
+A19779G,nsp15,3,True,V,V,52
+T22032C,S glycoprotein,1,False,F,S,144
+C23248T,S glycoprotein,3,True,F,F,549
+A26927G,M,3,True,E,E,134
+T27206C,ORF6,2,False,F,S,1
+A28523G,N,2,False,I,V,83
+T29709C,,1,,,,
+T17497C,Hel,1,False,Y,H,420
+T17529C,Hel,3,True,T,T,430
+G19891T,nsp15,3,False,D,Y,90
+C29284T,N,10,True,I,I,336
+G7320A,nsp3,3,False,S,N,1533
+C28310T,N,2,False,P,S,12
+C7164T,nsp3,2,False,T,I,1481
+C20946T,nsp16,3,True,V,V,95
+G4975A,nsp3,2,True,V,V,751
+C14616A,Pol,3,True,R,R,384
+C14931T,Pol,1,True,N,N,489
+C17746T,Hel,3,False,P,S,503
+C27577T,ORF7a,2,False,Q,*,46
+T22972G,S glycoprotein,1,True,T,T,457
+T9535C,nsp4,1,True,T,T,326
+C4551T,nsp3,1,False,T,I,610
+G27762T,,2,,,,
+C2675T,nsp2,4,False,P,S,623
+G16528T,Hel,2,False,V,F,97
+G24368C,S glycoprotein,2,False,D,H,923
+C25728A,ORF3a,2,True,V,V,111
+G3066A,nsp3,1,False,G,D,115
+C16349T,Hel,1,False,S,L,37
+C25624T,ORF3a,2,False,H,Y,77
+G27506T,ORF7a,1,False,G,V,22
+C12853T,nsp9,1,True,F,F,55
+C2110T,nsp2,2,True,N,N,434
+G7042T,nsp3,1,False,M,I,1440
+A7242G,nsp3,2,False,E,G,1507
+C14120T,Pol,3,False,P,L,219
+A1103T,nsp2,8,False,I,L,99
+C6573T,nsp3,8,False,S,F,1284
+G25323T,S glycoprotein,1,False,C,F,1241
+G28985T,N,3,False,G,C,237
+A22546G,S glycoprotein,3,True,R,R,315
+C19097T,ExoN,1,False,A,V,352
+G252T,,1,,,,
+C4710T,nsp3,5,False,A,V,663
+C15368T,Pol,5,False,T,I,635
+T20955C,nsp16,4,True,D,D,98
+G23580C,S glycoprotein,4,False,S,T,660
+T25542A,ORF3a,4,True,V,V,49
+G28798A,N,4,True,G,G,174
+C28940T,N,6,True,L,L,222
+C24771T,S glycoprotein,2,False,A,V,1057
+G7272A,nsp3,2,False,R,K,1517
+C12933T,nsp9,1,False,P,L,82
+C21843T,S glycoprotein,2,False,S,F,81
+C3015T,nsp3,3,False,A,V,98
+C5512T,nsp3,1,True,N,N,930
+A29552G,,4,,,,
+A532G,nsp1,1,True,V,V,88
+C3373A,nsp3,1,False,D,E,217
+C6843T,nsp3,1,False,S,F,1374
+C11195T,nsp6,1,False,L,F,74
+C13326T,nsp10,1,False,T,I,100
+C26894T,M,1,True,L,L,123
+G28580T,N,1,False,D,Y,102
+C16699T,Hel,1,False,R,C,154
+C1191T,nsp2,2,False,P,L,128
+G4510T,nsp3,1,True,V,V,596
+C4832T,nsp3,1,True,L,L,704
+A6207G,nsp3,1,False,K,R,1162
+G9526A,nsp4,1,False,M,I,323
+A10075G,3CL-PRO,1,True,A,A,6
+A10587C,3CL-PRO,1,False,E,A,177
+G13459C,,1,,,,
+G20238T,nsp15,1,False,R,S,205
+C26256T,E,2,True,F,F,3
+C26753T,M,1,True,T,T,76
+G28122A,ORF8,1,False,G,S,61
+C28846T,N,8,True,R,R,190
+C29541T,,2,,,,
+C21622T,S glycoprotein,2,True,T,T,7
+T25422C,ORF3a,1,True,I,I,9
+G18225T,ExoN,2,False,M,I,61
+G29711T,,7,,,,
+G21753T,S glycoprotein,2,False,W,L,51
+C25584T,ORF3a,1,True,T,T,63
+C1613T,nsp2,1,False,L,F,269
+A17121G,Hel,1,True,L,L,294
+G17590T,Hel,1,False,V,L,451
+C21058T,nsp16,1,False,P,S,133
+C25549T,ORF3a,1,False,L,F,52
+C6117T,nsp3,3,False,A,V,1132
+C15371T,Pol,1,False,T,M,636
+C16580T,Hel,3,False,T,I,114
+C21364T,nsp16,6,False,P,S,235
+C21587T,,2,,,,
+A23416T,S glycoprotein,4,True,T,T,605
+T25446C,ORF3a,3,True,G,G,17
+A25450G,ORF3a,4,False,I,V,19
+G25489T,ORF3a,3,False,A,S,32
+C26060T,ORF3a,5,False,T,I,222
+G28068T,ORF8,3,False,E,*,43
+C28695T,N,3,False,T,I,140
+C29614T,,3,,,,
+C16481T,Hel,2,False,P,L,81
+G17278T,Hel,3,False,V,L,347
+A29792T,,2,,,,
+C4455T,nsp3,4,False,A,V,578
+C4784T,nsp3,5,False,L,F,688
+C24899A,S glycoprotein,3,False,Q,K,1100
+C29686T,,2,,,,
+G2095A,nsp2,1,True,S,S,429
+A26924G,M,1,True,L,L,133
+C25919T,ORF3a,3,False,T,I,175
+G4144A,nsp3,1,True,E,E,474
+G4936A,nsp3,1,True,K,K,738
+C11020T,nsp6,3,True,L,L,15
+C16375T,Hel,1,False,P,S,46
+C29762T,,1,,,,
+C21658T,S glycoprotein,4,True,F,F,19
+G28576T,N,1,False,M,I,100
+G569A,nsp1,2,False,E,K,101
+A3765C,nsp3,3,False,D,A,348
+C7124T,nsp3,4,False,P,S,1468
+G9929A,nsp4,4,False,D,N,458
+T11337C,nsp6,5,False,L,S,121
+G17122T,Hel,5,False,A,S,295
+A17743T,Hel,4,False,N,Y,502
+G18546T,ExoN,4,False,M,I,168
+C21597T,,5,,,,
+A23329G,S glycoprotein,4,True,P,P,576
+G1914A,nsp2,4,False,R,H,369
+C3425T,nsp3,1,False,P,S,235
+C10802T,3CL-PRO,1,True,L,L,249
+C14358T,Pol,1,True,C,C,298
+G21210A,nsp16,1,False,M,I,183
+A22634G,S glycoprotein,1,False,I,V,345
+C26042T,ORF3a,1,False,T,I,216
+G29254A,N,1,True,S,S,326
+C23895T,S glycoprotein,2,False,T,I,765
+C527T,nsp1,1,True,L,L,87
+C835T,nsp2,2,True,F,F,9
+C2048T,nsp2,1,True,L,L,414
+C4999T,nsp3,1,True,N,N,759
+C8106T,nsp3,1,False,A,V,1795
+G17320T,Hel,1,False,A,S,361
+G19180T,ExoN,1,False,V,L,380
+A23235G,S glycoprotein,1,False,K,R,545
+A25495G,ORF3a,1,False,I,V,34
+C27434T,,1,,,,
+G28857T,N,3,False,R,I,194
+C12005T,nsp7,1,True,L,L,54
+C22326T,S glycoprotein,2,False,S,F,242
+G25459T,ORF3a,1,False,A,S,22
+C28519T,N,2,True,D,D,81
+C19524T,ExoN,4,True,L,L,494
+G12514T,nsp8,5,True,T,T,140
+A1109G,nsp2,2,False,K,E,101
+C4406T,nsp3,1,False,H,Y,562
+C9857T,nsp4,3,True,L,L,434
+G29543C,,1,,,,
+T23986C,S glycoprotein,1,True,D,D,795
+G13975T,Pol,1,False,G,C,171
+G18169T,ExoN,1,False,G,C,43
+G25440T,ORF3a,1,False,K,N,15
+C22432T,S glycoprotein,3,True,D,D,277
+G29017A,N,1,True,K,K,247
+G2282A,nsp2,2,False,E,K,492
+C4421T,nsp3,1,False,R,C,567
+G4925T,nsp3,1,False,D,Y,735
+C15237T,Pol,2,True,H,H,591
+T26780G,M,1,False,C,W,85
+G12385T,nsp8,2,False,L,F,97
+T11075A,nsp6,5,False,F,I,34
+C1609T,nsp2,1,True,D,D,267
+G6352T,nsp3,2,False,K,N,1210
+G7911T,nsp3,1,False,C,F,1730
+G11222A,nsp6,1,False,V,I,83
+T15357C,Pol,1,True,A,A,631
+C16362T,Hel,1,True,V,V,41
+C16675T,Hel,1,True,L,L,146
+C20233A,nsp15,1,False,P,T,204
+C24904T,S glycoprotein,1,True,I,I,1101
+C29149T,N,1,True,I,I,291
+C29659T,,1,,,,
+T3649C,nsp3,2,True,I,I,309
+C5090T,nsp3,3,False,P,S,790
+C9170A,nsp4,2,False,L,I,205
+T9619C,nsp4,1,True,N,N,354
+A11586G,nsp6,10,False,N,S,204
+C27739T,ORF7a,3,False,L,F,100
+T25398C,ORF3a,1,True,D,D,1
+G28960T,N,2,False,Q,H,228
+C13620T,Pol,7,True,D,D,52
+T21598C,,1,,,,
+T18768C,ExoN,1,True,D,D,242
+A19079G,ExoN,1,False,E,G,346
+C19854T,nsp15,1,True,D,D,77
+T23323C,S glycoprotein,1,True,I,I,574
+G25660T,ORF3a,1,False,V,F,89
+A6342G,nsp3,1,False,D,G,1207
+C8092T,nsp3,10,True,L,L,1790
+C13767T,Pol,1,True,D,D,101
+C14408A,Pol,1,False,P,H,315
+C21614T,S glycoprotein,2,False,L,F,5
+G25784T,ORF3a,1,False,W,L,130
+G26152T,ORF3a,3,False,G,*,253
+T22192C,S glycoprotein,1,True,I,I,197
+G4136T,nsp3,1,False,V,F,472
+C19151T,ExoN,1,False,A,V,370
+C26858T,M,2,True,F,F,111
+C19318T,ExoN,1,False,H,Y,426
+G29447C,N,1,False,V,L,391
+C17634T,Hel,2,True,D,D,465
+G3901T,nsp3,2,False,K,N,393
+G5665A,nsp3,1,True,Q,Q,981
+T19452C,ExoN,1,True,A,A,470
+C13059T,nsp10,2,False,T,I,11
+T28465A,N,1,True,L,L,63
+G8017T,nsp3,5,True,A,A,1765
+A13482G,Pol,5,True,V,V,6
+C19255T,ExoN,5,True,L,L,405
+C25944T,ORF3a,5,True,Y,Y,183
+A1807G,nsp2,4,True,G,G,333
+C12412T,nsp8,1,True,I,I,106
+G2808T,nsp3,7,False,R,M,29
+C3992T,nsp3,7,True,L,L,424
+T6118C,nsp3,6,True,A,A,1132
+G12243T,nsp8,5,False,R,L,50
+G13723T,Pol,6,False,A,S,87
+C19803T,nsp15,5,True,R,R,60
+T22846C,S glycoprotein,1,True,D,D,415
+C23271T,S glycoprotein,6,False,A,V,557
+T23599A,S glycoprotein,8,False,N,K,666
+G27670A,ORF7a,5,False,V,I,77
+C28744T,N,10,True,I,I,156
+A28877T,N,6,False,S,C,201
+G28878C,N,6,False,S,T,201
+A29154G,N,5,False,Q,R,293
+C22993T,S glycoprotein,1,True,S,S,464
+G22094A,S glycoprotein,1,False,D,N,165
+C28725T,N,1,False,P,L,150
+A6414G,nsp3,1,False,E,G,1231
+C6813T,nsp3,3,False,T,I,1364
+C25513T,ORF3a,2,False,L,F,40
+C29739T,,3,,,,
+A1573G,nsp2,2,True,T,T,255
+G27601A,ORF7a,1,False,G,S,54
+C14074A,Pol,1,False,L,I,204
+C27476T,ORF7a,1,False,T,I,12
+C92T,,1,,,,
+C5031T,nsp3,3,False,T,I,770
+C5672T,nsp3,2,False,P,S,984
+C8320T,nsp3,3,True,P,P,1866
+C8836T,nsp4,2,True,V,V,93
+C10116T,3CL-PRO,1,False,T,I,20
+T12349G,nsp8,1,True,A,A,85
+C18348T,ExoN,1,True,T,T,102
+G21786T,S glycoprotein,1,False,G,V,62
+T23959C,S glycoprotein,2,True,G,G,786
+G27952T,ORF8,2,False,C,F,4
+C28775T,N,2,False,P,S,167
+G11262T,nsp6,3,False,W,L,96
+G29764T,,3,,,,
+A5426C,nsp3,5,False,T,P,902
+C27329A,ORF6,1,False,S,*,42
+C8937T,nsp4,4,False,A,V,127
+T14379C,Pol,1,True,F,F,305
+C3176T,nsp3,1,False,P,S,152
+T21154G,nsp16,1,False,S,A,165
+C4795T,nsp3,1,True,S,S,691
+A28959G,N,2,False,Q,R,228
+A5209G,nsp3,2,True,S,S,829
+C25521T,ORF3a,4,True,F,F,42
+C27769T,,2,,,,
+A29052T,N,2,False,Q,L,259
+C29774T,,2,,,,
+C1288T,nsp2,9,True,C,C,160
+C2857T,nsp3,7,True,L,L,45
+A3840G,nsp3,1,False,E,G,373
+C9679T,nsp4,5,True,F,F,374
+C10039T,nsp4,6,True,T,T,494
+C11249T,nsp6,1,False,R,C,92
+G15007A,Pol,5,False,D,N,515
+A18270G,ExoN,5,True,E,E,76
+G19060T,ExoN,1,False,V,L,340
+T20227C,nsp15,6,False,F,L,202
+G20887A,nsp16,1,False,G,R,76
+C21642T,S glycoprotein,2,False,A,V,14
+T21895C,S glycoprotein,5,True,D,D,98
+G29260T,N,6,True,T,T,328
+C29754T,,1,,,,
+C3411A,nsp3,1,False,A,D,230
+G25266T,S glycoprotein,1,False,C,F,1222
+C26799T,M,2,False,L,F,92
+C28896T,N,2,False,A,V,207
+C23635T,S glycoprotein,1,True,S,S,678
+G26167T,ORF3a,1,False,V,L,258
+A24696T,S glycoprotein,1,False,K,M,1032
+G2075A,nsp2,1,False,G,S,423
+A5068C,nsp3,1,True,G,G,782
+G881A,nsp2,1,False,A,T,25
+A3423G,nsp3,4,False,K,R,234
+C6318A,nsp3,4,False,P,Q,1199
+C8025T,nsp3,1,False,A,V,1768
+C10448T,3CL-PRO,1,False,P,S,131
+C15026T,Pol,5,False,A,V,521
+A19960G,nsp15,5,False,T,A,113
+C26111T,ORF3a,6,False,P,L,239
+A29019G,N,5,False,K,R,248
+C16049T,Pol,1,False,T,I,862
+G27632C,ORF7a,1,False,R,T,64
+C12400T,nsp8,3,True,L,L,102
+T16680C,Hel,1,True,S,S,147
+G27798T,,9,,,,
+C1567T,nsp2,1,True,N,N,253
+C6037T,nsp3,1,True,S,S,1105
+C21205T,nsp16,1,False,L,F,182
+C27549T,ORF7a,7,True,N,N,36
+C829T,nsp2,2,True,N,N,7
+C5806T,nsp3,2,True,C,C,1028
+C6500T,nsp3,1,False,P,S,1260
+C10868T,3CL-PRO,1,True,L,L,271
+G26020A,ORF3a,1,False,D,N,209
+C29366T,N,1,False,P,S,364
+A6357C,nsp3,1,False,E,A,1212
+G25352T,S glycoprotein,1,False,V,L,1251
+T184C,,1,,,,
+C16092T,Pol,1,True,Y,Y,876
+G23948T,S glycoprotein,2,False,D,Y,783
+G167T,,1,,,,
+G19481T,ExoN,1,False,G,V,480
+G27490A,ORF7a,1,False,E,K,17
+C11704T,nsp6,3,True,Y,Y,243
+G13201T,nsp10,1,True,P,P,58
+C29520T,N,2,False,S,L,415
+G18105T,ExoN,1,False,Q,H,21
+C23987A,S glycoprotein,1,False,P,T,796
+G28350T,N,3,False,S,I,25
+G3403T,nsp3,1,True,V,V,227
+C17762T,Hel,3,False,A,V,508
+G960T,nsp2,1,False,R,L,51
+C15857T,Pol,1,False,T,I,798
+C25669T,ORF3a,1,False,H,Y,92
+G27670T,ORF7a,2,False,V,F,77
+C8327T,nsp3,2,False,L,F,1869
+T18495C,ExoN,3,True,L,L,151
+C13517T,Pol,2,False,T,I,18
+T21348C,nsp16,1,True,F,F,229
+C106T,,5,,,,
+G210T,,7,,,,
+C28313T,N,1,False,R,C,13
+C9319T,nsp4,3,True,F,F,254
+G12170A,nsp8,3,False,A,T,26
+C14877T,Pol,4,True,Y,Y,471
+G16564T,Hel,4,False,A,S,109
+C19269T,ExoN,3,True,N,N,409
+C22120T,S glycoprotein,2,True,F,F,173
+C6638T,nsp3,8,False,H,Y,1306
+C15678T,Pol,8,True,Y,Y,738
+G19677T,nsp15,1,False,Q,H,18
+T1481C,nsp2,2,False,F,L,225
+A3964C,nsp3,2,False,K,N,414
+C5284T,nsp3,2,True,N,N,854
+G6742A,nsp3,2,True,R,R,1340
+T11112C,nsp6,2,False,M,T,46
+C12778T,nsp9,2,True,Y,Y,30
+A21071G,nsp16,2,False,N,S,137
+A29089G,N,2,True,Q,Q,271
+A1106G,nsp2,1,False,I,V,100
+C11572T,nsp6,1,True,F,F,199
+C16948T,Hel,3,False,P,S,237
+C20806T,nsp16,1,True,L,L,49
+G21941T,S glycoprotein,1,False,V,F,114
+A2430G,nsp2,2,False,K,R,541
+T8562C,nsp4,2,False,V,A,2
+G21901A,S glycoprotein,2,True,K,K,100
+C25700T,ORF3a,2,False,A,V,102
+C2727T,nsp3,1,False,T,I,2
+A23813T,S glycoprotein,2,False,N,Y,738
+G28080A,ORF8,1,False,D,N,47
+C1943T,nsp2,5,False,R,C,379
+G27327T,ORF6,4,False,K,N,41
+G7016T,nsp3,1,False,G,C,1432
+C18747T,ExoN,3,True,V,V,235
+C23099T,S glycoprotein,1,False,L,F,500
+A28064T,ORF8,1,False,L,F,41
+T2335C,nsp2,2,True,A,A,509
+C593T,nsp1,1,False,H,Y,109
+C1758T,nsp2,1,False,A,V,317
+A23382G,S glycoprotein,2,False,Q,R,594
+G25775T,ORF3a,1,False,W,L,127
+C28344G,N,1,False,T,S,23
+A10110G,3CL-PRO,1,False,Q,R,18
+C22033A,S glycoprotein,1,False,F,L,144
+G29315C,N,1,False,D,H,347
+T23119C,S glycoprotein,1,True,H,H,506
+C24058T,S glycoprotein,2,True,G,G,819
+C3924T,nsp3,1,False,P,L,401
+T2114G,nsp2,1,False,F,V,436
+C26499T,,2,,,,
+G2782T,nsp3,1,True,V,V,20
+G6482A,nsp3,1,False,G,R,1254
+C9712A,nsp4,1,True,S,S,385
+A19326G,ExoN,1,True,P,P,428
+C26801T,M,1,True,L,L,92
+G27962A,ORF8,1,True,Q,Q,7
+G28083T,ORF8,2,False,E,*,48
+G6116T,nsp3,1,False,A,S,1132
+C12784T,nsp9,1,True,N,N,32
+T16939C,Hel,1,True,L,L,234
+C6196T,nsp3,1,True,P,P,1158
+C16465A,Hel,4,False,P,T,76
+C20178T,nsp15,6,True,V,V,185
+G25273T,S glycoprotein,5,False,M,I,1224
+C26585T,M,4,True,N,N,20
+G28950A,N,4,False,R,K,225
+C6936T,nsp3,2,False,S,F,1405
+T18699C,ExoN,1,True,A,A,219
+C4113T,nsp3,2,False,A,V,464
+T25982C,ORF3a,1,False,V,A,196
+C24138T,S glycoprotein,1,False,T,I,846
+G189A,,1,,,,
+C1616T,nsp2,1,False,L,F,270
+C10369T,3CL-PRO,3,True,R,R,104
+C16877T,Hel,1,False,T,I,213
+G17019C,Hel,1,False,E,D,260
+G17572T,Hel,1,False,A,S,445
+C24023T,S glycoprotein,1,True,L,L,808
+G24794T,S glycoprotein,2,False,A,S,1065
+C28236T,ORF8,1,False,R,C,99
+G12067T,nsp7,1,False,M,I,74
+T3136C,nsp3,4,True,G,G,138
+C6664T,nsp3,1,True,V,V,1314
+C13923T,Pol,1,True,D,D,153
+C13945T,Pol,3,False,P,S,161
+A20705G,nsp16,1,False,K,R,15
+C21595T,,1,,,,
+C24844T,S glycoprotein,1,True,V,V,1081
+C25066T,S glycoprotein,12,True,D,D,1155
+G25523A,ORF3a,1,False,G,E,43
+G5678A,nsp3,1,False,V,I,986
+C19011T,ExoN,2,True,D,D,323
+T6142C,nsp3,1,True,F,F,1140
+C18657T,ExoN,3,True,T,T,205
+G24977C,S glycoprotein,1,False,D,H,1126
+C11653T,nsp6,2,True,L,L,226
+T29646C,,2,,,,
+G12769T,nsp9,9,True,A,A,27
+A1451G,nsp2,1,False,I,V,215
+C1471T,nsp2,1,True,R,R,221
+C13487T,Pol,1,False,A,V,8
+T21189C,nsp16,3,True,N,N,176
+C21648T,S glycoprotein,1,False,T,I,16
+A19085G,ExoN,1,False,K,R,348
+C1063T,nsp2,1,True,F,F,85
+C900T,nsp2,2,False,S,L,31
+G18905T,ExoN,1,False,R,L,288
+A15668G,Pol,1,False,N,S,735
+C29518T,N,1,True,D,D,414
+G1463T,nsp2,1,False,G,C,219
+C1091T,nsp2,1,False,P,S,95
+G21119T,nsp16,2,False,C,F,153
+G29383T,N,2,False,K,N,369
+T12640C,nsp8,1,True,P,P,182
+C16247T,Hel,1,False,A,V,3
+G6885T,nsp3,1,False,G,V,1388
+G9434T,nsp4,1,False,V,L,293
+C10336T,3CL-PRO,1,True,A,A,93
+C12076T,nsp7,4,True,N,N,77
+C18264T,ExoN,1,True,T,T,74
+T22942C,S glycoprotein,1,True,N,N,447
+G24262T,S glycoprotein,1,False,M,I,887
+T26038A,ORF3a,1,False,S,T,215
+C28269T,,1,,,,
+C29837T,,1,,,,
+G680T,nsp1,1,False,D,Y,138
+T27639C,ORF7a,1,True,V,V,66
+C186T,,1,,,,
+G22104T,S glycoprotein,1,False,G,V,168
+A28169G,ORF8,1,True,E,E,76
+G28209T,ORF8,1,False,E,*,90
+G1729A,nsp2,1,True,V,V,307
+C11824T,nsp6,2,True,I,I,283
+C23707T,S glycoprotein,1,True,P,P,702
+C23520T,S glycoprotein,1,False,A,V,640
+C29721A,,1,,,,
+G434A,nsp1,1,False,E,K,56
+C4878T,nsp3,1,False,T,I,719
+C10790T,3CL-PRO,1,False,H,Y,245
+C11575A,nsp6,1,False,F,L,200
+G17058A,Hel,1,False,M,I,273
+C22591T,S glycoprotein,1,True,N,N,330
+A28898G,N,1,False,R,G,208
+C29546A,,1,,,,
+C1420T,nsp2,1,True,A,A,204
+G19735T,nsp15,2,False,D,Y,38
+T25461C,ORF3a,1,True,A,A,22
+C25678T,ORF3a,1,False,L,F,95
+G11185A,nsp6,2,True,L,L,70
+T14082C,Pol,2,True,G,G,206
+G29777C,,1,,,,
+C18881T,ExoN,1,False,A,V,280
+C25339T,S glycoprotein,1,True,D,D,1246
+G4720T,nsp3,1,True,A,A,666
+G5180A,nsp3,4,False,D,N,820
+G7393T,nsp3,1,True,P,P,1557
+G8939T,nsp4,1,False,V,F,128
+G11401T,nsp6,1,False,M,I,142
+A14535G,Pol,1,True,R,R,357
+G17218A,Hel,1,False,D,N,327
+G27882T,,4,,,,
+A7929C,nsp3,1,False,K,T,1736
+A2386T,nsp2,1,False,E,D,526
+G3689A,nsp3,1,False,E,K,323
+C15194T,Pol,2,False,A,V,577
+T17433C,Hel,1,True,I,I,398
+G29553A,,4,,,,
+C3411T,nsp3,1,False,A,V,230
+A2410T,nsp2,1,True,G,G,534
+T6778C,nsp3,1,True,Y,Y,1352
+C17421T,Hel,1,True,H,H,394
+G18315A,ExoN,1,True,E,E,91
+G26051T,ORF3a,1,False,S,I,219
+C29311T,N,1,True,F,F,345
+C24374T,S glycoprotein,4,False,L,F,925
+G27281T,ORF6,2,False,W,L,26
+T24856C,S glycoprotein,1,True,N,N,1085
+C3736T,nsp3,1,True,D,D,338
+C7420T,nsp3,1,True,I,I,1566
+C7749T,nsp3,1,False,T,I,1676
+G13045A,nsp10,1,True,V,V,6
+C13051T,nsp10,1,True,A,A,8
+G15906T,Pol,1,False,Q,H,814
+C20148T,nsp15,1,True,F,F,175
+A22005C,S glycoprotein,1,False,N,T,135
+C22502A,S glycoprotein,1,False,Q,K,301
+G28913T,N,1,False,G,C,213
+C29144T,N,1,True,L,L,290
+G29179C,N,1,True,P,P,301
+C11669A,nsp6,1,False,R,S,232
+G19117T,ExoN,1,False,A,S,359
+G25396T,ORF3a,1,False,D,Y,1
+C23029T,S glycoprotein,1,True,Y,Y,476
+G18782T,ExoN,1,False,G,V,247
+C2334T,nsp2,4,False,A,V,509
+A6491G,nsp3,4,False,I,V,1257
+C11747T,nsp6,1,True,L,L,258
+T25716C,ORF3a,4,True,L,L,107
+G26458T,E,3,False,D,Y,71
+G21795T,S glycoprotein,1,False,R,M,65
+C6296T,nsp3,1,False,R,C,1192
+C27427T,,1,,,,
+T19530C,ExoN,1,True,A,A,496
+A21137G,nsp16,1,False,K,R,159
+C26568A,M,1,False,L,I,15
+C26606T,M,1,True,F,F,27
+C28776A,N,4,False,P,Q,167
+T41G,,1,,,,
+C7011T,nsp3,1,False,A,V,1430
+T18291C,ExoN,1,True,R,R,83
+T25222C,S glycoprotein,1,True,F,F,1207
+G28364C,N,1,False,E,Q,30
+T13339C,nsp10,2,True,N,N,104
+C5140T,nsp3,1,True,D,D,806
+C22879T,S glycoprotein,1,True,N,N,426
+T26099C,ORF3a,1,False,I,T,235
+C15714T,Pol,1,True,L,L,750
+C24745T,S glycoprotein,1,True,V,V,1048
+G18149T,ExoN,1,False,G,V,36
+A18470G,ExoN,1,False,D,G,143
+C16428T,Hel,2,True,Y,Y,63
+G28808A,N,1,False,G,S,178
+G29254T,N,2,True,S,S,326
+G27906T,,1,,,,
+C22383T,S glycoprotein,1,False,T,I,261
+C27575T,ORF7a,1,False,T,I,45
+T27534C,ORF7a,1,True,H,H,31
+C6120T,nsp3,1,False,S,L,1133
+A11602G,nsp6,1,False,I,M,209
+G18803T,ExoN,1,False,S,I,254
+G20434T,nsp15,1,False,D,Y,271
+G26769A,M,1,False,A,T,82
+G1306C,nsp2,1,False,E,D,166
+T9415C,nsp4,1,True,G,G,286
+C17977T,Hel,1,False,L,F,580
+A21999T,S glycoprotein,1,False,H,L,133
+G27996T,ORF8,1,False,D,Y,19
+C28087T,ORF8,2,False,A,V,49
+G6622A,nsp3,1,True,L,L,1300
+G29593T,,1,,,,
+C3096T,nsp3,1,False,S,L,125
+A19812C,nsp15,1,False,K,N,63
+C8316T,nsp3,1,False,T,I,1865
+G10719A,3CL-PRO,1,False,R,Q,221
+G18337T,ExoN,1,False,A,S,99
+C18555T,ExoN,1,True,D,D,171
+G25595T,ORF3a,3,False,R,I,67
+G25913A,ORF3a,1,False,G,D,173
+C26078T,ORF3a,2,False,T,I,228
+C28308T,N,1,False,A,V,11
+T13914C,Pol,2,True,N,N,150
+G26730C,M,2,False,V,L,69
+T1303C,nsp2,1,True,T,T,165
+C21310A,nsp16,1,False,Q,K,217
+G25647T,ORF3a,1,False,L,F,84
+G29751A,,2,,,,
+G6421T,nsp3,2,True,V,V,1233
+T7465A,nsp3,2,True,V,V,1581
+T16557C,Hel,2,True,N,N,106
+A6531G,nsp3,1,False,E,G,1270
+C20483T,nsp15,2,False,S,F,287
+T4591C,nsp3,1,True,N,N,623
+G487A,nsp1,1,True,S,S,73
+G3701A,nsp3,4,False,A,T,327
+G4181T,nsp3,4,False,A,S,487
+G12028A,nsp7,1,False,M,I,61
+C18508T,ExoN,4,False,L,F,156
+C29171T,N,2,False,H,Y,299
+G3980T,nsp3,2,False,V,F,420
+C21727T,S glycoprotein,2,True,F,F,42
+C21997T,S glycoprotein,2,True,Y,Y,132
+G22567A,S glycoprotein,2,True,L,L,322
+A24090G,S glycoprotein,1,False,D,G,830
+C24912T,S glycoprotein,1,False,T,I,1104
+C27970T,ORF8,1,False,T,I,10
+A18272G,ExoN,1,False,E,G,77
+C14925T,Pol,5,True,V,V,487
+T3127G,nsp3,1,False,D,E,135
+C15540T,Pol,1,True,V,V,692
+G18412T,ExoN,1,False,V,F,124
+G23782T,S glycoprotein,1,False,M,I,727
+G12106A,nsp8,1,True,E,E,4
+A25035G,S glycoprotein,1,False,N,S,1145
+C9979T,nsp4,1,True,L,L,474
+T11418C,nsp6,1,False,V,A,148
+T12643A,nsp8,1,True,L,L,183
+C14178T,Pol,1,True,T,T,238
+C24378T,S glycoprotein,2,False,S,F,926
+A29406T,N,1,False,E,V,377
+C29635T,,1,,,,
+T10831C,3CL-PRO,1,True,I,I,258
+C15960T,Pol,1,True,A,A,832
+G25445A,ORF3a,1,False,G,D,17
+A25668G,ORF3a,1,True,S,S,91
+C27145T,M,1,False,T,I,207
+G29540T,,1,,,,
+C475T,nsp1,2,True,F,F,69
+A6507G,nsp3,2,False,N,S,1262
+C19259T,ExoN,2,False,S,F,406
+G21227A,nsp16,2,False,W,*,189
+G21228C,nsp16,2,False,W,C,189
+C25416T,ORF3a,2,True,F,F,7
+C27879T,,1,,,,
+G20275T,nsp15,2,False,D,Y,218
+A24641G,S glycoprotein,2,False,T,A,1014
+T20331C,nsp15,1,True,Y,Y,236
+C11460A,nsp6,1,False,S,Y,162
+C28411T,N,1,True,P,P,45
+C3743T,nsp3,4,False,H,Y,341
+A20294T,nsp15,3,False,Y,F,224
+C1426T,nsp2,1,True,Y,Y,206
+C12809T,nsp9,1,False,L,F,41
+C22208T,S glycoprotein,1,False,L,F,203
+G25599T,ORF3a,1,False,W,C,68
+C556T,nsp1,4,True,Y,Y,96
+C7267T,nsp3,2,True,F,F,1515
+G21761T,S glycoprotein,1,False,A,S,54
+G29124T,N,1,False,G,V,283
+C799A,nsp1,2,False,N,K,177
+C8016T,nsp3,1,False,A,V,1765
+C17104T,Hel,1,False,H,Y,289
+T5755C,nsp3,1,True,N,N,1011
+G24992T,S glycoprotein,1,False,E,*,1131
+C11565T,nsp6,1,False,P,L,197
+C11224T,nsp6,6,True,V,V,83
+C19586A,ExoN,1,False,T,N,515
+T20123C,nsp15,1,False,I,T,167
+G24998T,S glycoprotein,1,False,D,Y,1133
+G27916A,,1,,,,
+C28706T,N,3,False,H,Y,144
+T205A,,1,,,,
+T9952C,nsp4,1,True,A,A,465
+T22213C,S glycoprotein,1,True,P,P,204
+C29200T,N,1,True,P,P,308
+G625T,nsp1,1,False,K,N,119
+G17944T,Hel,1,False,V,L,569
+G16647T,Hel,3,True,T,T,136
+G7312A,nsp3,1,True,L,L,1530
+G20342T,nsp15,1,False,S,I,240
+C22323T,S glycoprotein,1,False,S,F,241
+C28093T,ORF8,1,False,S,F,51
+C6318T,nsp3,1,False,P,L,1199
+T11092C,nsp6,1,True,N,N,39
+C14184T,Pol,2,True,T,T,240
+T14556C,Pol,1,True,L,L,364
+C17004T,Hel,1,True,L,L,255
+A16006G,Pol,2,False,I,V,848
+A9707G,nsp4,2,False,I,V,384
+C10755T,3CL-PRO,2,False,A,V,233
+G25690T,ORF3a,3,False,G,C,99
+C1057T,nsp2,1,True,D,D,83
+A4964G,nsp3,1,False,T,A,748
+C18377T,ExoN,2,False,T,I,112
+C2509T,nsp2,2,True,P,P,567
+G944A,nsp2,1,False,G,S,46
+T6769C,nsp3,1,True,Y,Y,1349
+T3106C,nsp3,1,True,Y,Y,128
+A3079G,nsp3,2,True,E,E,119
+C8240T,nsp3,3,False,H,Y,1840
+T17919C,Hel,3,True,F,F,560
+C1913T,nsp2,1,False,R,C,369
+C10319T,3CL-PRO,3,False,L,F,88
+A18424G,ExoN,3,False,N,D,128
+C21304T,nsp16,2,False,R,C,215
+C25515T,ORF3a,2,True,L,L,40
+G25907T,ORF3a,2,False,G,V,171
+A27825G,,2,,,,
+C27964T,ORF8,3,False,S,L,8
+C28472T,N,3,False,P,S,66
+C28869T,N,3,False,P,L,198
+T29760C,,2,,,,
+G11335T,nsp6,4,True,V,V,120
+G25526T,ORF3a,4,False,W,L,44
+C25553T,ORF3a,4,False,A,V,53
+C27707T,ORF7a,3,False,A,V,89
+C22482T,S glycoprotein,1,False,T,I,294
+T17832G,Hel,2,True,T,T,531
+G188T,,3,,,,
+G662T,nsp1,3,False,G,C,132
+C9996T,nsp4,3,False,S,L,480
+C15235T,Pol,11,False,H,Y,591
+C19273T,ExoN,3,False,P,S,411
+T2740G,nsp3,1,False,F,L,6
+T19844G,nsp15,1,False,L,W,74
+A19654G,nsp15,1,False,K,E,11
+G15602A,Pol,1,False,R,H,713
+C10776T,3CL-PRO,1,False,P,L,240
+C17474T,Hel,2,False,T,I,412
+G19795T,nsp15,1,False,A,S,58
+A24837C,S glycoprotein,1,False,E,A,1079
+G6894T,nsp3,1,False,C,F,1391
+G15452T,Pol,1,False,G,V,663
+C10712A,3CL-PRO,1,False,L,I,219
+A11298G,nsp6,2,False,K,R,108
+T12947C,nsp9,1,True,L,L,87
+C11308T,nsp6,1,True,D,D,111
+G15664T,Pol,1,False,V,L,734
+G701A,nsp1,1,False,G,S,145
+C3593T,nsp3,2,False,L,F,291
+G15380T,Pol,1,False,S,I,639
+G17847A,Hel,1,True,Q,Q,536
+C18167T,ExoN,2,False,P,L,42
+G18651A,ExoN,1,True,E,E,203
+C27143T,M,1,True,N,N,206
+C203T,,3,,,,
+G204T,,1,,,,
+G8600T,nsp4,1,False,V,L,15
+T17007C,Hel,1,True,N,N,256
+G22484T,S glycoprotein,1,False,V,L,295
+T4600C,nsp3,2,True,L,L,626
+G26262A,E,3,True,S,S,5
+G1942A,nsp2,1,True,V,V,378
+A3133G,nsp3,1,True,Q,Q,137
+G3431T,nsp3,1,False,V,L,237
+T5653C,nsp3,1,True,Y,Y,977
+G8102T,nsp3,1,False,V,F,1794
+C10138T,3CL-PRO,2,True,N,N,27
+T11176C,nsp6,1,True,C,C,67
+A12130G,nsp8,1,True,A,A,12
+G17280T,Hel,1,True,V,V,347
+C21721T,S glycoprotein,1,True,D,D,40
+C26804T,M,1,True,S,S,93
+G11634T,nsp6,1,False,C,F,220
+T18858C,ExoN,1,True,D,D,272
+C28606T,N,1,True,Y,Y,110
+C5730T,nsp3,1,False,T,I,1003
+C4754T,nsp3,6,False,P,S,678
+C17172T,Hel,1,True,A,A,311
+C17285T,Hel,6,False,S,L,349
+A24402G,S glycoprotein,1,False,K,R,934
+A24823C,S glycoprotein,1,True,A,A,1074
+C29304T,N,6,False,P,L,343
+T27409C,,1,,,,
+C27442T,ORF7a,1,False,L,F,1
+C6525T,nsp3,2,False,T,I,1268
+C6354T,nsp3,3,False,S,L,1211
+G10688T,3CL-PRO,2,False,V,F,211
+G11071A,nsp6,2,True,L,L,32
+G20568T,nsp15,2,False,K,N,315
+C23778T,S glycoprotein,1,False,T,I,726
+C498A,nsp1,1,False,T,N,77
+T16656C,Hel,1,True,A,A,139
+T1357C,nsp2,1,True,A,A,183
+C4794T,nsp3,1,False,S,F,691
+C5175T,nsp3,1,False,T,I,818
+A5390G,nsp3,1,False,N,D,890
+A10982G,nsp6,1,False,K,E,3
+T11569C,nsp6,1,True,I,I,198
+A17645T,Hel,1,False,Q,L,469
+C17750T,Hel,1,False,A,V,504
+G19086T,ExoN,1,False,K,N,348
+C19374T,ExoN,1,True,F,F,444
+A22941G,S glycoprotein,1,False,N,S,447
+C29627T,,1,,,,
+G1820A,nsp2,1,False,G,S,338
+C13548T,Pol,1,True,D,D,28
+T3149C,nsp3,1,False,F,L,143
+G2354A,nsp2,1,False,G,R,516
+A3569G,nsp3,1,False,S,G,283
+G23624A,S glycoprotein,1,False,A,T,675
+C16616T,Hel,2,False,T,I,126
+C22570T,S glycoprotein,1,True,C,C,323
+C1938T,nsp2,2,False,S,F,377
+C18115T,ExoN,1,False,H,Y,25
+C29249T,N,2,False,P,S,325
+A16067C,Pol,1,False,E,A,868
+C19862T,nsp15,1,False,A,V,80
+C16192T,Pol,1,False,P,S,910
+C17976T,Hel,1,True,D,D,579
+C3666T,nsp3,1,False,A,V,315
+T21656C,S glycoprotein,1,False,F,L,19
+G24751T,S glycoprotein,4,False,L,F,1050
+G23262T,S glycoprotein,1,False,R,I,554
+T8200C,nsp3,3,True,D,D,1826
+G19525T,ExoN,3,False,D,Y,495
+G28871A,N,1,False,G,S,199
+G18960T,ExoN,1,True,A,A,306
+G1274T,nsp2,1,False,V,F,156
+C26204T,ORF3a,2,False,T,I,270
+C3602T,nsp3,1,False,H,Y,294
+T16884A,Hel,1,True,T,T,215
+T20190C,nsp15,1,True,P,P,189
+T1354C,nsp2,1,True,N,N,182
+A5852G,nsp3,1,False,I,V,1044
+C12708T,nsp9,1,False,A,V,7
+C22480T,S glycoprotein,1,True,F,F,293
+G25244T,S glycoprotein,1,False,V,L,1215
+A26864T,M,1,True,P,P,113
+G28361C,N,1,False,G,R,29
+G174A,,1,,,,
+C5758T,nsp3,1,True,Y,Y,1012
+G5953A,nsp3,1,True,L,L,1077
+C6395T,nsp3,1,True,L,L,1225
+G17721T,Hel,1,True,V,V,494
+C25731T,ORF3a,1,True,Y,Y,112
+G28884T,N,1,False,G,V,203
+G29374A,N,1,True,E,E,366
+A13833T,Pol,1,False,L,F,123
+C1513T,nsp2,2,True,C,C,235
+A10018G,nsp4,2,True,Q,Q,487
+G15439A,Pol,2,False,V,I,659
+C28054T,ORF8,2,False,S,L,38
+A25351T,S glycoprotein,1,True,P,P,1250
+C26124T,ORF3a,2,True,V,V,243
+C29625T,,1,,,,
+A4284G,nsp3,1,False,E,G,521
+T11084C,nsp6,1,False,Y,H,37
+T12027G,nsp7,1,False,M,R,61
+A28040G,ORF8,1,True,V,V,33
+A25438G,ORF3a,1,False,K,E,15
+C5497T,nsp3,3,True,C,C,925
+C15925T,Pol,1,False,L,F,821
+G18028T,Hel,2,False,A,S,597
+G22841T,S glycoprotein,1,False,D,Y,414
+C25469T,ORF3a,1,False,S,L,25
+T28600C,N,1,True,Y,Y,108
+C27509T,ORF7a,1,False,T,I,23
+A15213G,Pol,1,True,T,T,583
+G25091T,S glycoprotein,1,False,V,L,1164
+A27753G,ORF7a,1,True,T,T,104
+G18210T,ExoN,1,False,M,I,56
+C22855T,S glycoprotein,2,True,G,G,418
+C27641T,ORF7a,1,False,S,L,67
+T4873C,nsp3,4,True,Y,Y,717
+C8994T,nsp4,4,False,T,I,146
+G14290T,Pol,6,False,D,Y,276
+C19018T,ExoN,9,False,P,S,326
+T20409C,nsp15,4,True,F,F,262
+A22330T,S glycoprotein,1,True,S,S,243
+C28866T,N,1,False,T,I,197
+C4733T,nsp3,1,False,L,F,671
+G29706T,,1,,,,
+T29834C,,1,,,,
+C635T,nsp1,1,False,R,C,123
+G839A,nsp2,1,False,G,S,11
+C22712T,S glycoprotein,1,False,P,S,371
+C23277T,S glycoprotein,1,False,T,I,559
+C17898T,Hel,1,True,H,H,553
+C4456T,nsp3,3,True,A,A,578
+G18523T,ExoN,1,False,V,L,161
+C19029T,ExoN,1,True,H,H,329
+C21846T,S glycoprotein,6,False,T,I,82
+G4975T,nsp3,1,True,V,V,751
+A12095G,nsp8,1,False,I,V,1
+G16914T,Hel,1,True,V,V,225
+A25974T,ORF3a,1,False,E,D,193
+C1627T,nsp2,1,True,L,L,273
+C6145T,nsp3,1,True,F,F,1141
+C23202A,S glycoprotein,1,False,T,K,534
+A24287G,S glycoprotein,1,False,I,V,896
+C12295T,nsp8,1,True,T,T,67
+C18929T,ExoN,1,False,P,L,296
+G26526T,M,1,False,A,S,1
+A29538T,,1,,,,
+C22594T,S glycoprotein,1,True,A,A,331
+A23209G,S glycoprotein,1,True,T,T,536
+G24116A,S glycoprotein,1,False,A,T,839
+G25922T,ORF3a,1,False,S,I,176
+T17142A,Hel,1,True,A,A,301
+A17030G,Hel,1,False,N,S,264
+A25921G,ORF3a,1,False,S,G,176
+T1362C,nsp2,1,False,V,A,185
+C4719T,nsp3,1,False,A,V,666
+C7681T,nsp3,1,True,D,D,1653
+C9223T,nsp4,1,True,H,H,222
+C9226T,nsp4,1,True,G,G,223
+A11746G,nsp6,1,True,G,G,257
+C19185T,ExoN,2,True,C,C,381
+G21578A,,1,,,,
+G22319T,S glycoprotein,1,False,D,Y,240
+T24736C,S glycoprotein,1,True,H,H,1045
+C25487T,ORF3a,1,False,T,I,31
+G28178T,ORF8,2,False,L,F,79
+C28292A,N,2,False,Q,K,6
+A3709G,nsp3,2,True,L,L,329
+T9127C,nsp4,1,True,Y,Y,190
+A15165G,Pol,1,True,L,L,567
+A17460G,Hel,1,True,P,P,407
+C6726T,nsp3,1,False,T,I,1335
+G24883A,S glycoprotein,1,True,R,R,1094
+C8739T,nsp4,1,False,T,I,61
+G9314T,nsp4,1,False,V,F,253
+G15535T,Pol,1,False,A,S,691
+C25585T,ORF3a,1,False,L,F,64
+C2574T,nsp2,1,False,T,I,589
+G3194A,nsp3,1,False,E,K,158
+G10265A,3CL-PRO,1,False,G,S,70
+G14857T,Pol,2,False,V,F,465
+C16293T,Hel,1,True,C,C,18
+C25452T,ORF3a,1,True,I,I,19
+C6628T,nsp3,1,True,T,T,1302
+G25429T,ORF3a,1,False,V,L,12
+C27535T,ORF7a,1,False,P,S,32
+A5245C,nsp3,1,False,Q,H,841
+G9851A,nsp4,1,False,D,N,432
+T9853C,nsp4,1,True,D,D,432
+G9854A,nsp4,2,False,V,M,433
+C12756T,nsp9,1,False,T,I,23
+C26571T,M,1,False,L,F,16
+A26592C,M,1,False,I,L,23
+C4940T,nsp3,1,False,L,F,740
+G6127A,nsp3,1,True,E,E,1135
+G28436T,N,1,False,A,S,54
+C1912T,nsp2,1,True,S,S,368
+T11463C,nsp6,2,False,M,T,163
+G2741T,nsp3,1,False,G,C,7
+G12938A,nsp9,1,False,V,M,84
+C21910T,S glycoprotein,1,True,S,S,103
+C27643T,ORF7a,1,False,P,S,68
+C29119T,N,1,True,T,T,281
+C27925T,,1,,,,
+T10351C,3CL-PRO,1,True,P,P,98
+C12672T,nsp8,1,False,A,V,193
+T12901G,nsp9,1,True,P,P,71
+C19572T,ExoN,1,True,Y,Y,510
+G23522C,S glycoprotein,1,False,E,Q,641
+C29741T,,1,,,,
+C4927T,nsp3,1,True,D,D,735
+A22023G,S glycoprotein,1,False,E,G,141
+A27624G,ORF7a,1,True,L,L,61
+G29027T,N,1,False,A,S,251
+G24858A,S glycoprotein,1,False,G,D,1086
+C13876T,Pol,1,False,L,F,138
+A6T,,1,,,,
+T11320C,nsp6,2,True,Y,Y,115
+C24621T,S glycoprotein,1,False,A,V,1007
+G26113T,ORF3a,1,False,E,*,240
+G28628T,N,2,False,A,S,118
+G26501T,,1,,,,
+A1138G,nsp2,2,True,K,K,110
+G6589A,nsp3,2,True,K,K,1289
+A12547T,nsp8,2,True,A,A,151
+C14119T,Pol,2,False,P,S,219
+C29696T,,2,,,,
+C18928T,ExoN,1,False,P,S,296
+G2867T,nsp3,1,False,V,L,49
+C5192T,nsp3,1,True,L,L,824
+T13C,,5,,,,
+C6695T,nsp3,2,False,P,S,1325
+G20679T,nsp16,4,True,P,P,6
+T29107C,N,3,True,G,G,277
+C25614G,ORF3a,2,True,S,S,73
+A3123G,nsp3,1,False,D,G,134
+G26550A,M,1,False,V,I,9
+A12T,,1,,,,
+C28T,,1,,,,
+C2455T,nsp2,3,True,L,L,549
+C2676T,nsp2,2,False,P,L,623
+C14625T,Pol,3,True,C,C,387
+C14937T,Pol,4,True,D,D,491
+A24432T,S glycoprotein,3,False,Q,L,944
+G27430A,,2,,,,
+A28081G,ORF8,3,False,D,G,47
+C4320T,nsp3,1,False,A,V,533
+T4522C,nsp3,1,True,G,G,600
+C11036T,nsp6,1,False,L,F,21
+G13415A,nsp10,1,False,D,N,130
+A25020C,S glycoprotein,1,False,D,A,1140
+T28759C,N,1,True,P,P,161
+C29085T,N,1,False,T,I,270
+G29527A,N,1,True,Q,Q,417
+C19380T,ExoN,1,True,Y,Y,446
+G199T,,1,,,,
+T3256C,nsp3,1,True,N,N,178
+A7857G,nsp3,1,False,N,S,1712
+C11355T,nsp6,1,False,A,V,127
+A12964G,nsp9,1,True,G,G,92
+T13417C,nsp10,1,True,D,D,130
+G14202T,Pol,1,False,E,D,246
+A20763G,nsp16,1,True,T,T,34
+C22388T,S glycoprotein,1,True,L,L,263
+A23690G,S glycoprotein,1,False,N,D,697
+A27974G,ORF8,1,True,Q,Q,11
+C28045T,ORF8,1,False,A,V,35
+C28657A,N,1,False,D,E,127
+G29227T,N,1,True,S,S,317
+C29466T,N,1,False,A,V,397
+G29468T,N,1,False,D,Y,398
+A29771G,,1,,,,
+T6489C,nsp3,1,False,I,T,1256
+T25586C,ORF3a,1,False,L,P,64
+C14724T,Pol,1,True,F,F,420
+A18684T,ExoN,1,True,T,T,214
+G27676C,ORF7a,2,False,E,Q,79
+C28399A,N,1,True,P,P,41
+G14653T,Pol,1,False,V,F,397
+G19645T,nsp15,3,False,V,F,8
+G2527T,nsp2,1,False,E,D,573
+C3426T,nsp3,1,False,P,L,235
+G8021T,nsp3,1,False,V,F,1767
+T17175C,Hel,1,True,A,A,312
+G22661A,S glycoprotein,1,False,V,I,354
+G3259T,nsp3,1,False,Q,H,179
+C6255T,nsp3,1,False,A,V,1178
+A2046G,nsp2,2,False,N,S,413
+C20462T,nsp15,3,False,T,I,280
+A22488C,S glycoprotein,2,False,E,A,296
+T26857A,M,2,False,F,Y,111
+A9826G,nsp4,1,True,K,K,423
+C222T,,1,,,,
+T445C,nsp1,1,True,V,V,59
+T20661C,nsp16,1,True,S,S,0
+G21255C,nsp16,1,True,A,A,198
+G21468T,nsp16,1,False,M,I,269
+C26801G,M,1,True,L,L,92
+C28932T,N,1,False,A,V,219
+C29386T,N,1,True,D,D,370
+G29645T,,1,,,,
+C3140T,nsp3,1,False,P,S,140
+G3483T,nsp3,1,False,G,V,254
+G6373T,nsp3,2,False,M,I,1217
+C7299T,nsp3,1,False,A,V,1526
+T9070C,nsp4,1,True,D,D,171
+C9985T,nsp4,1,True,D,D,476
+T13289C,nsp10,1,False,F,L,88
+C5826T,nsp3,1,False,T,I,1035
+T11938C,nsp7,1,True,C,C,31
+T25827C,ORF3a,1,True,Y,Y,144
+G29745T,,1,,,,
+C17036T,Hel,1,False,A,V,266
+G20670A,nsp16,1,True,A,A,3
+T23966C,S glycoprotein,1,False,F,L,789
+A25637G,ORF3a,1,False,N,S,81
+G10065T,3CL-PRO,2,False,R,I,3
+G18985T,ExoN,2,False,V,F,315
+C25810T,ORF3a,1,False,L,F,139
+G28300A,N,1,True,Q,Q,8
+C19217T,ExoN,1,False,P,L,392
+C64T,,3,,,,
+C335T,nsp1,1,False,R,C,23
+G598T,nsp1,1,True,V,V,110
+T2212C,nsp2,1,True,V,V,468
+C20104T,nsp15,1,False,L,F,161
+G20773A,nsp16,1,False,G,S,38
+G26314T,E,1,False,V,L,23
+T27438C,,1,,,,
+C27542A,ORF7a,1,False,A,D,34
+G28221T,ORF8,1,False,E,*,94
+C15183A,Pol,1,True,A,A,573
+C23730T,S glycoprotein,1,False,T,I,710
+A4457G,nsp3,1,False,I,V,579
+C5884T,nsp3,1,True,Y,Y,1054
+G15260T,Pol,1,False,S,I,599
+G20714T,nsp16,1,False,R,I,18
+G8189T,nsp3,1,False,V,F,1823
+C8367T,nsp3,1,False,A,V,1882
+G9928T,nsp4,1,False,M,I,457
+G22599T,S glycoprotein,1,False,R,I,333
+G28371T,N,1,False,S,I,32
+G28922T,N,2,False,A,S,216
+G28357T,N,1,False,Q,H,27
+G545T,nsp1,2,False,G,C,93
+C4345T,nsp3,7,True,I,I,541
+G8179C,nsp3,2,True,R,R,1819
+A11384C,nsp6,2,True,R,R,137
+A25575G,ORF3a,2,True,K,K,60
+A26118G,ORF3a,2,True,E,E,241
+G28747T,N,2,True,V,V,157
+A28860T,N,2,False,N,I,195
+G29736T,,3,,,,
+G26539T,M,1,False,G,V,5
+G2144T,nsp2,5,False,V,F,446
+G2246A,nsp2,11,False,G,S,480
+C9246T,nsp4,11,False,A,V,230
+C28311T,N,1,False,P,L,12
+A28363C,N,6,True,G,G,29
+C28826T,N,6,False,R,C,184
+G29402T,N,6,False,D,Y,376
+C8905T,nsp4,3,True,D,D,116
+T14288C,Pol,3,False,F,S,275
+G14290A,Pol,3,False,D,N,276
+T5266C,nsp3,2,True,I,I,848
+C25413T,ORF3a,2,True,I,I,6
+A20336G,nsp15,1,False,D,G,238
+C11878A,nsp7,1,True,V,V,11
+C14585T,Pol,1,False,A,V,374
+C19961T,nsp15,1,False,T,M,113
+G26690A,M,1,True,L,L,55
+C2706T,nsp2,1,False,T,I,633
+A25980C,ORF3a,1,True,G,G,195
+A29549G,,1,,,,
+T27404C,,1,,,,
+C13667T,Pol,1,False,T,I,68
+G26257A,E,1,False,V,I,4
+G2995T,nsp3,1,False,E,D,91
+A28771T,N,1,True,T,T,165
+C4780T,nsp3,3,True,I,I,686
+T16659C,Hel,2,True,T,T,140
+G18318T,ExoN,3,True,G,G,92
+C22353T,S glycoprotein,1,False,A,V,251
+G24257T,S glycoprotein,2,False,A,S,886
+C29870A,,3,,,,
+G5425T,nsp3,1,False,K,N,901
+C12786A,nsp9,1,False,T,K,33
+C20639T,nsp15,1,False,T,I,339
+G11837A,nsp6,1,False,V,I,288
+C12651T,nsp8,1,False,T,I,186
+T19209C,ExoN,1,True,D,D,389
+G25299T,S glycoprotein,4,False,G,V,1233
+G6456A,nsp3,1,False,C,Y,1245
+T6562C,nsp3,1,True,Y,Y,1280
+T7225G,nsp3,1,True,A,A,1501
+G22051T,S glycoprotein,1,True,A,A,150
+C23240T,S glycoprotein,1,True,L,L,547
+G26792T,M,1,False,L,F,89
+C6720T,nsp3,1,False,T,I,1333
+G4399T,nsp3,2,False,M,I,559
+A6708C,nsp3,2,False,K,T,1329
+C9803T,nsp4,2,True,L,L,416
+C25047T,S glycoprotein,2,False,P,L,1149
+G28739T,N,2,False,A,S,155
+A3559C,nsp3,1,False,K,N,279
+A4549G,nsp3,1,True,K,K,609
+G20709T,nsp16,1,False,M,I,16
+G21372T,nsp16,1,False,Q,H,237
+G24926T,S glycoprotein,1,False,V,L,1109
+G28122T,ORF8,3,False,G,C,61
+G4136A,nsp3,5,False,V,I,472
+C10834T,3CL-PRO,2,True,A,A,259
+C12295A,nsp8,5,True,T,T,67
+C14183T,Pol,2,False,T,I,240
+A20268G,nsp15,5,True,L,L,215
+C25658T,ORF3a,2,False,T,I,88
+A25900G,ORF3a,2,False,T,A,169
+G4006T,nsp3,2,False,K,N,428
+C8683T,nsp4,3,True,I,I,42
+G22205T,S glycoprotein,2,False,D,Y,202
+G24914T,S glycoprotein,3,False,D,Y,1105
+C1919T,nsp2,2,False,L,F,371
+C11109T,nsp6,3,False,A,V,45
+C17550T,Hel,3,True,L,L,437
+C20844T,nsp16,3,True,P,P,61
+G27478T,ORF7a,2,False,V,L,13
+G16741T,Hel,2,False,V,F,168
+G19872C,nsp15,2,True,V,V,83
+G1186A,nsp2,1,True,A,A,126
+G14874T,Pol,1,False,K,N,470
+C19118T,ExoN,1,False,A,V,359
+C25433T,ORF3a,1,False,T,I,13
+C162T,,1,,,,
+C21T,,3,,,,
+C16887T,Hel,1,True,Y,Y,216
+C19944T,nsp15,1,True,A,A,107
+T23338C,S glycoprotein,2,True,F,F,579
+T27846G,,1,,,,
+G61T,,3,,,,
+G29755T,,3,,,,
+C19983T,nsp15,1,True,V,V,120
+C21998T,S glycoprotein,1,False,H,Y,133
+C29503T,N,1,True,S,S,409
+G26730T,M,1,False,V,F,69
+G28881T,N,1,False,R,M,202
+G922T,nsp2,2,True,L,L,38
+C7005T,nsp3,2,False,T,I,1428
+G28373T,N,2,False,G,W,33
+C6968T,nsp3,1,True,L,L,1416
+C2460T,nsp2,1,False,P,L,551
+A4420G,nsp3,1,True,T,T,566
+C19070T,ExoN,1,False,A,V,343
+C207T,,2,,,,
+T224C,,2,,,,
+G29751C,,5,,,,
+C1710T,nsp2,1,False,A,V,301
+C15222T,Pol,1,True,F,F,586
+C27513T,ORF7a,1,True,Y,Y,24
+A4166G,nsp3,1,False,I,V,482
+G28077T,ORF8,1,False,V,L,46
+T28867C,N,1,True,T,T,197
+C2445T,nsp2,3,False,T,I,546
+A18333G,ExoN,3,True,R,R,97
+C1093A,nsp2,1,True,P,P,95
+C832T,nsp2,1,True,N,N,8
+C15352T,Pol,1,False,L,F,630
+G18651T,ExoN,1,False,E,D,203
+C21736T,S glycoprotein,1,True,F,F,45
+C24198T,S glycoprotein,1,False,A,V,866
+C24381T,S glycoprotein,1,False,S,F,927
+T3438C,nsp3,1,False,V,A,239
+C13168T,nsp10,1,True,H,H,47
+T694C,nsp1,1,True,F,F,142
+T21091C,nsp16,1,False,S,P,144
+C2037T,nsp2,1,False,A,V,410
+G5857T,nsp3,1,True,T,T,1045
+T11980C,nsp7,1,True,T,T,45
+T19527A,ExoN,1,False,D,E,495
+C22314A,S glycoprotein,1,False,P,H,238
+G28073T,ORF8,1,False,L,F,44
+G677A,nsp1,1,False,A,T,137
+T20157C,nsp15,1,True,Y,Y,178
+G29024T,N,1,False,A,S,250
+A19743C,nsp15,1,False,E,D,40
+G29810T,,1,,,,
+A28303T,N,1,True,R,R,9
+C3737T,nsp3,1,False,P,S,339
+T25694C,ORF3a,1,False,L,P,100
+A23946C,S glycoprotein,1,False,K,T,782
+C24107T,S glycoprotein,1,False,L,F,836
+C4679T,nsp3,1,False,P,S,653
+C19145T,ExoN,1,False,S,F,368
+C7165T,nsp3,3,True,T,T,1481
+C8318A,nsp3,3,False,P,T,1866
+C19366A,ExoN,3,False,P,T,442
+G26746T,M,1,False,W,L,74
+G872A,nsp2,1,False,D,N,22
+G4454A,nsp3,1,False,A,T,578
+G530A,nsp1,1,False,V,I,88
+G17814T,Hel,1,False,L,F,525
+C20234T,nsp15,3,False,P,L,204
+C2091T,nsp2,1,False,T,I,428
+C4633T,nsp3,3,True,G,G,637
+C5467T,nsp3,2,True,Y,Y,915
+C21691T,S glycoprotein,3,True,F,F,30
+G18972T,ExoN,1,False,K,N,310
+G25793T,ORF3a,2,False,R,L,133
+G15627T,Pol,1,False,E,D,721
+C13424T,nsp10,1,False,R,C,133
+C25925T,ORF3a,1,False,P,L,177
+G26849T,M,1,False,M,I,108
+G6404T,nsp3,1,False,V,F,1228
+C29730T,,1,,,,
+G22093T,S glycoprotein,1,False,M,I,164
+C9120T,nsp4,1,False,T,I,188
+A220G,,1,,,,
+A3405C,nsp3,1,False,E,A,228
+G21325T,nsp16,1,False,V,F,222
+C26907T,M,1,True,L,L,128
+C29272T,N,1,True,Y,Y,332
+C17676T,Hel,2,True,I,I,479
+G27628C,ORF7a,1,False,A,P,63
+G22708T,S glycoprotein,1,True,V,V,369
+G3638A,nsp3,3,False,G,S,306
+C4901T,nsp3,1,True,L,L,727
+G8179T,nsp3,1,True,R,R,1819
+C1441T,nsp2,2,True,G,G,211
+C7417T,nsp3,2,True,Y,Y,1565
+A9162G,nsp4,2,False,N,S,202
+A11057G,nsp6,2,False,T,A,28
+T14685A,Pol,2,False,F,L,407
+G28655T,N,2,False,D,Y,127
+T17901C,Hel,1,True,S,S,554
+C28391T,N,1,False,R,C,39
+G18079A,ExoN,2,False,V,I,13
+C19027T,ExoN,2,False,H,Y,329
+A29188T,N,2,True,A,A,304
+A25755G,ORF3a,1,True,V,V,120
+G6476T,nsp3,1,False,V,F,1252
+C10440T,3CL-PRO,1,False,A,V,128
+G25302T,S glycoprotein,1,False,C,F,1234
+C13115T,nsp10,1,True,L,L,30
+G15910T,Pol,1,False,D,Y,816
+C19313T,ExoN,1,False,A,V,424
+C745T,nsp1,3,True,N,N,159
+C2388T,nsp2,3,False,T,I,527
+C11322T,nsp6,2,False,A,V,116
+T20592C,nsp15,3,True,Y,Y,323
+C21614A,S glycoprotein,3,False,L,I,5
+C24099T,S glycoprotein,3,False,A,V,833
+G24368T,S glycoprotein,3,False,D,Y,923
+G28986T,N,1,False,G,V,237
+G3570A,nsp3,1,False,S,N,283
+C4009T,nsp3,1,True,F,F,429
+C14178G,Pol,1,True,T,T,238
+G24124T,S glycoprotein,1,False,K,N,841
+C3646T,nsp3,1,True,D,D,308
+C19402T,ExoN,1,False,H,Y,454
+C29421T,N,1,False,P,L,382
+C3653T,nsp3,1,False,L,F,311
+G26727T,M,1,False,A,S,68
+G2173A,nsp2,1,True,K,K,455
+C16111T,Pol,2,True,L,L,883
+C23230T,S glycoprotein,1,True,N,N,543
+C29642T,,1,,,,
+C12733T,nsp9,4,True,A,A,15
+C29281T,N,1,True,A,A,335
+G2250T,nsp2,1,False,G,V,481
+T23221A,S glycoprotein,1,True,T,T,540
+C29836T,,1,,,,
+C9661T,nsp4,1,True,F,F,368
+G26589T,M,1,False,V,L,22
+C10015T,nsp4,1,True,Y,Y,486
+G17035T,Hel,1,False,A,S,266
+G27217T,ORF6,1,False,D,Y,5
+C11005T,nsp6,1,True,H,H,10
+A20231T,nsp15,1,False,K,I,203
+T20361C,nsp15,1,True,G,G,246
+C24421T,S glycoprotein,1,True,N,N,940
+C300T,nsp1,1,False,T,I,11
+T4732C,nsp3,1,True,Y,Y,670
+T29710A,,1,,,,
+C29718T,,1,,,,
+A18015G,Hel,1,True,P,P,592
+T11698C,nsp6,1,True,Y,Y,241
+C18464T,ExoN,1,False,P,L,141
+C25561T,ORF3a,1,False,Q,*,56
+C21742T,S glycoprotein,1,True,S,S,47
+C9113T,nsp4,1,False,P,S,186
+G24328T,S glycoprotein,1,False,L,F,909
+C3683A,nsp3,1,False,Q,K,321
+C10228T,3CL-PRO,1,True,L,L,57
+G28086T,ORF8,1,False,A,S,49
+G29392T,N,1,False,K,N,372
+G6337T,nsp3,1,True,S,S,1205
+A22151G,S glycoprotein,1,False,I,V,184
+G24386A,S glycoprotein,1,False,A,T,929
+A231G,,1,,,,
+G7160A,nsp3,1,False,D,N,1480
+T11485C,nsp6,1,True,V,V,170
+C22747T,S glycoprotein,1,True,V,V,382
+C12068T,nsp7,1,True,L,L,75
+A20226G,nsp15,2,True,E,E,201
+G247T,,1,,,,
+C12102T,nsp8,1,False,S,L,3
+C28310A,N,1,False,P,T,12
+T6868C,nsp3,1,True,N,N,1382
+G12767A,nsp9,1,False,A,T,27
+C25611T,ORF3a,1,True,L,L,72
+C10376T,3CL-PRO,1,False,P,S,107
+C12242T,nsp8,1,False,R,C,50
+G21974C,S glycoprotein,1,False,D,H,125
+A23014G,S glycoprotein,1,True,E,E,471
+C5376T,nsp3,1,False,A,V,885
+T5840C,nsp3,1,False,Y,H,1040
+C14786T,Pol,1,False,A,V,441
+C17213T,Hel,1,False,P,L,325
+G10631A,3CL-PRO,1,False,A,T,192
+C539T,nsp1,1,False,L,F,91
+C17470T,Hel,1,True,L,L,411
+A13859G,Pol,1,False,D,G,132
+A28390G,N,1,True,Q,Q,38

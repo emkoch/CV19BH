@@ -1,0 +1,185 @@
+---
+title: "COVID Vaccination Compare 061022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Set-up
+
+```{r}
+library(cowplot)
+library(epiDisplay)
+library(tidyverse)
+library(ggsci)  
+library(wesanderson)
+library(lubridate)
+library(corrplot) 
+library(scales)
+# For PCA
+library(factoextra)
+# For Adding P-Values
+library(gtsummary)
+library(hash)
+```
+
+```{r}
+processed_data <- read_csv("data_muts_severe_final.csv")
+processed_data <- processed_data[complete.cases(processed_data$clade),]
+```
+
+## Get list of patients of interest
+
+```{r}
+vaccinated_individuals <- processed_data %>%
+  filter(`Vaccination.Status..Processed.` == "Yes") %>%
+  filter(!is.na(age_imputed)) %>%
+  filter(!is.na(Gender.num)) %>%
+  filter(!is.na(`Patient.Id`))
+```
+
+```{r}
+set.seed(73021)
+indices_for_unvaccinated <- rep(NA, nrow(vaccinated_individuals))
+# Match on Age +/- 
+for (i in 1:nrow(vaccinated_individuals)) {
+  current_age <- vaccinated_individuals$age_imputed[i]
+  current_date <- vaccinated_individuals$`Collection.Date`[i]
+  current_gender <- vaccinated_individuals$Gender.num[i]
+  current_id <- vaccinated_individuals$`Patient.Id`[i]
+  possible_matches <- processed_data %>%
+    # filter(Age %in% seq(current_age - 15, current_age + 15)) %>%
+    filter(`Collection.Date` %within% interval(current_date - 17, current_date + 17)) %>%
+    filter(Gender.num == current_gender) %>%
+    filter(`Patient.Id` != current_id) %>%
+    filter(!is.na(`Patient.Id`)) %>%
+    filter(`Vaccination.Status..Processed.` == "No")
+
+  possible_indices <- rep(NA, nrow(possible_matches))
+  for (j in 1:nrow(possible_matches)) {
+    possible_match_id <- possible_matches$`Patient.Id`[j]
+    possible_indices[j] <- which(processed_data$`Patient.Id` == possible_match_id)
+  }
+
+  available_indices <- possible_indices[!(possible_indices %in% indices_for_unvaccinated)]
+  if (length(available_indices) <= 0) {
+    print("Uh Oh")
+    break
+  }
+  selected_idx <- sample(available_indices, 1)
+  
+  # Find the index of that person
+  # original_idx <- which(processed_data$`Patient Id` == selected_row$`Patient Id`)
+  indices_for_unvaccinated[i] <- selected_idx
+}
+```
+
+```{r}
+print(length(indices_for_unvaccinated))
+print(length(unique(indices_for_unvaccinated)))
+```
+
+```{r}
+unvaccinated_individuals <- processed_data[indices_for_unvaccinated,]
+```
+
+```{r}
+combined_data <- rbind(vaccinated_individuals, unvaccinated_individuals)
+combined_data <- combined_data %>%
+  select(clade, `Collection.Date`, `Vaccination.Status..Processed.`, `Vaccination.Type`)
+combined_data$clade <- as.factor(combined_data$clade)
+combined_data$`Vaccination Status (Processed)` <- as.factor(combined_data$`Vaccination.Status..Processed.`)
+combined_data$`Vaccination Type` <- as.factor(combined_data$`Vaccination.Type`)
+combined_data <- combined_data %>%
+  mutate(`Month-Year` = paste(month(`Collection.Date`), year(`Collection.Date`), sep="-"))
+```
+
+### Fisher Association
+
+```{r}
+unique_months <- unique(fisher_test_data$`Month-Year`)
+unique_months <- unique_months[!unique_months %in% c("9-2020", "12-2020")]
+months_dataframes <- hash()
+for (unique_month in unique_months) {
+  # Make sure we have both month-year and vaccination status data
+  filtered_data <- fisher_test_data[fisher_test_data$`Month-Year` == unique_month, ]
+  filtered_data <- filtered_data[!is.na(filtered_data$`Vaccination.Status..Processed.`),]
+  # Separate the nos and yeses
+  no_vaccination <- filtered_data[filtered_data$Vaccination.Status..Processed. == "No", ]
+  yes_vaccination <- filtered_data[filtered_data$Vaccination.Status..Processed. == "Yes", ]
+  # Decide which one we want to drop
+  # For 03-2021 we should drop 30 Yeses
+  # For 02-2021 we should drop 22 Nos
+  # For 01-2021 we should drop 7 Nos
+  drop_no <- TRUE
+  drop_count <- 0
+  count_no <- nrow(no_vaccination)
+  count_yes <- nrow(yes_vaccination)
+  if (count_no > count_yes) {
+    drop_no <- TRUE
+    drop_count <- count_no - count_yes
+  } else {
+    drop_no <- FALSE
+    drop_count <- count_yes - count_no
+  }
+  
+  # Do the dropping
+  if (drop_no == TRUE) {
+    rows_to_drop <- sample(count_no, drop_count, replace = FALSE)
+    new_no_vaccination <- no_vaccination[-rows_to_drop, ]
+    new_combined_data <- rbind(new_no_vaccination, yes_vaccination)
+  } else {
+    rows_to_drop <- sample(count_yes, drop_count, replace = FALSE)
+    new_yes_vaccination <- yes_vaccination[-rows_to_drop, ]
+    new_combined_data <- rbind(no_vaccination, new_yes_vaccination)
+  }
+
+  print(unique_month)
+  months_dataframes[unique_month] <- new_combined_data
+  print(table(new_combined_data$`Vaccination.Status..Processed.`))
+  print(fisher.test(table(new_combined_data$Vaccination.Status..Processed., new_combined_data$is_alpha_clade)))
+}
+```
+
+```{r}
+final_combined_data <- rbind(months_dataframes$`1-2021`, months_dataframes$`2-2021`, months_dataframes$`3-2021`)
+print(fisher.test(table(final_combined_data$Vaccination.Status..Processed., final_combined_data$is_alpha_clade)))
+```
+
+
+## Plot the Data
+
+```{r}
+combined_data %>% ggplot(aes(x=as.Date(Collection.Date, format="%Y-%m-%d"), fill=clade)) +
+  stat_bin(color="black", binwidth = 10, position="fill")+
+  scale_x_date(breaks=date_breaks("1 month"), labels=date_format("%b %y")) +
+  theme_bw() +  scale_fill_igv() + xlab("Collection Date")  + ylab("Proportion of Patients")  +
+  facet_wrap(~`Vaccination Status (Processed)`, nrow=2, labeller = labeller(.rows=label_both)) + theme_cowplot()
+
+combined_data %>% ggplot(aes(x=as.Date(Collection.Date, format="%Y-%m-%d"), fill=clade)) +
+  stat_bin(color="black", binwidth = 10)+
+  scale_x_date(breaks=date_breaks("1 month"), labels=date_format("%b %y")) +
+  theme_bw() +  scale_fill_igv() + xlab("Collection Date")  + ylab("Proportion of Patients")  +
+  facet_wrap(~`Vaccination Status (Processed)`, nrow=2, labeller = labeller(.rows=label_both)) + theme_cowplot()
+```
+
+```{r}
+library(RColorBrewer)
+month_counts <- combined_data %>% dplyr::filter(lubridate::month(Collection.Date, label=TRUE) !="Dec" ) %>% dplyr::filter(lubridate::month(Collection.Date, label=TRUE) !="Sep") %>%
+  dplyr::mutate(Month=lubridate::month(Collection.Date, label=TRUE)) %>%
+  group_by(Month, `Vaccination Status (Processed)`) %>% summarize(n=n())
+
+month_data <- combined_data %>% dplyr::filter(lubridate::month(Collection.Date, label=TRUE) !="Dec" ) %>% dplyr::filter(lubridate::month(Collection.Date, label=TRUE) !="Sep") %>%
+  dplyr::mutate(Month=lubridate::month(Collection.Date, label=TRUE))
+
+# Instead of scale_fill_igv()
+month_data %>%  
+  ggplot() +
+  geom_bar(aes(x=`Vaccination Status (Processed)`, fill=clade), color="black", binwidth = 10, position="fill")+
+  theme_bw() + scale_fill_brewer(palette="Dark2") + xlab("Vaccination")  + ylab("Proportion of Patients") +
+  geom_text(data=month_counts, 
+             aes(x=`Vaccination Status (Processed)`, label=n), y=1.05) + ylim(0, 1.05) + 
+  facet_wrap(~Month, ncol=3) + theme_cowplot()
+```
