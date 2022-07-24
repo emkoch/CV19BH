@@ -15,3 +15,4 @@ Demographic and Viral-Genetic Analyses of COVID-19 Severity in Bahrain Identify 
 13. individual_mutations.R: association analyses of indvidual viral mutations.
 14. rv_burden_plots.R: analysis of burden scores.
 15. SFS_plots.R: selection analyses of SNP frequencies. 
+16. AUC.R AUC analysis.
